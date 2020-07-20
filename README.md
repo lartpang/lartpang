@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm lartpang</h1>
-<h3 align="center">A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.</h3>
+<p align="center">A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.</p>
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=lartpang" alt="lartpang" /></p>
 
