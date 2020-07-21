@@ -4,7 +4,7 @@
 <p align="center"><img src="https://komarev.com/ghpvc/?username=lartpang" alt="lartpang" /></p>
 
 - 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
-- 💬 Ask me about **Python, PyTorch**
+- 💬 Ask me about **Python, PyTorch** in [ISSUES](https://github.com/lartpang/lartpang/issues)
 - ⚡ Fun fact **I am a boy.**
 
 <p align="center"><img src="https://konpa.github.io/devicon/devicon.git/icons/python/python-original-wordmark.svg" alt="python" width="20" height="20" /></p>
