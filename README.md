@@ -9,8 +9,9 @@
 - ⚡ Fun fact **I am a boy.**
 
 Some interesting projects:
-* PySODMetrics, A simple and efficient implementation of SOD metrcis: <https://github.com/lartpang/PySODMetrics>
-* OpticalFlowBasedVOS, A simple and efficient codebase for the optical flow based video object segmentation: <https://github.com/lartpang/OpticalFlowBasedVOS>
+* **PyTorchTricks**, Some tricks of pytorch... :star: : <https://github.com/lartpang/PyTorchTricks>
+* **PySODMetrics**, A simple and efficient implementation of SOD metrcis: <https://github.com/lartpang/PySODMetrics>
+* **OpticalFlowBasedVOS**, A simple and efficient codebase for the optical flow based video object segmentation: <https://github.com/lartpang/OpticalFlowBasedVOS>
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox" alt="lartpang" /></p>
 <p align="center">
