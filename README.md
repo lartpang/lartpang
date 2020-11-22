@@ -8,6 +8,10 @@
 - 💬 Ask me about **Python, PyTorch** in [ISSUES](https://github.com/lartpang/lartpang/issues)
 - ⚡ Fun fact **I am a boy.**
 
+Some interesting projects:
+* PySODMetrics, A simple and efficient implementation of SOD metrcis: <https://github.com/lartpang/PySODMetrics>
+* OpticalFlowBasedVOS, A simple and efficient codebase for the optical flow based video object segmentation: <https://github.com/lartpang/OpticalFlowBasedVOS>
+
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox" alt="lartpang" /></p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26847524/88529060-093a9d80-d032-11ea-8742-b447de42345e.gif" alt="gif" /><br />
