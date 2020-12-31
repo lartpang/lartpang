@@ -13,6 +13,7 @@ Some interesting projects:
 * **PySODMetrics**, A simple and efficient implementation of SOD metrcis: <https://github.com/lartpang/PySODMetrics>
 * **OpticalFlowBasedVOS**, A simple and efficient codebase for the optical flow based video object segmentation: <https://github.com/lartpang/OpticalFlowBasedVOS>
 * **CoSaliencyProj**, A project for co-saliency detection. Some codes are borrowed from ICNet. Thanks to ICNet Intra-saliency Correlation Network for Co-Saliency Detection (NIPS2020)~: <https://github.com/lartpang/CoSaliencyProj>
+* **Py-SOD-VOS-EvalToolkit**, A Python-based salient object detection and video object segmentation evaluation toolbox.: <https://github.com/lartpang/Py-SOD-VOS-EvalToolkit>
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox" alt="lartpang" /></p>
 <p align="center">
