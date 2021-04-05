@@ -9,11 +9,12 @@
 - ⚡ Fun fact **I am a boy.**
 
 Some interesting projects:
-* **PyTorchTricks**, Some tricks of pytorch... :star: : <https://github.com/lartpang/PyTorchTricks>
-* **PySODMetrics**, A simple and efficient implementation of SOD metrcis: <https://github.com/lartpang/PySODMetrics>
-* **OpticalFlowBasedVOS**, A simple and efficient codebase for the optical flow based video object segmentation: <https://github.com/lartpang/OpticalFlowBasedVOS>
-* **CoSaliencyProj**, A project for co-saliency detection. Some codes are borrowed from ICNet. Thanks to ICNet Intra-saliency Correlation Network for Co-Saliency Detection (NIPS2020)~: <https://github.com/lartpang/CoSaliencyProj>
-* **Py-SOD-VOS-EvalToolkit**, A Python-based salient object detection and video object segmentation evaluation toolbox.: <https://github.com/lartpang/Py-SOD-VOS-EvalToolkit>
+* [**PyTorchTricks**](https://github.com/lartpang/PyTorchTricks), Some tricks of pytorch... :star: 
+* [**PySODMetrics**](https://github.com/lartpang/PySODMetrics), A simple and efficient implementation of SOD metrcis.
+* [**OpticalFlowBasedVOS**](https://github.com/lartpang/OpticalFlowBasedVOS), A simple and efficient codebase for the optical flow based video object segmentation.
+* [**CoSaliencyProj**](https://github.com/lartpang/CoSaliencyProj), A project for co-saliency detection. Some codes are borrowed from ICNet. Thanks to ICNet Intra-saliency Correlation Network for Co-Saliency Detection (NIPS2020)~
+* [**Py-SOD-VOS-EvalToolkit**](https://github.com/lartpang/Py-SOD-VOS-EvalToolkit), A Python-based salient object detection and video object segmentation evaluation toolbox.
+* [**PyLoss**](https://github.com/lartpang/PyLoss), Some loss functions for deeplearning.
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox" alt="lartpang" /></p>
 <p align="center">
