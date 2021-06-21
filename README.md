@@ -9,12 +9,20 @@
 - ⚡ Fun fact **I am a boy.**
 
 Some interesting projects:
+
+**PyTorch.**
 * [**PyTorchTricks**](https://github.com/lartpang/PyTorchTricks), Some tricks of pytorch... :star: 
+
+**SOD.**
 * [**PySODMetrics**](https://github.com/lartpang/PySODMetrics), A simple and efficient implementation of SOD metrcis.
 * [**OpticalFlowBasedVOS**](https://github.com/lartpang/OpticalFlowBasedVOS), A simple and efficient codebase for the optical flow based video object segmentation.
 * [**CoSaliencyProj**](https://github.com/lartpang/CoSaliencyProj), A project for co-saliency detection. Some codes are borrowed from ICNet. Thanks to ICNet Intra-saliency Correlation Network for Co-Saliency Detection (NIPS2020)~
-* [**Py-SOD-VOS-EvalToolkit**](https://github.com/lartpang/Py-SOD-VOS-EvalToolkit), A Python-based salient object detection and video object segmentation evaluation toolbox.
+* [**PySODEvalToolkit**](https://github.com/lartpang/PySODEvalToolkit), A Python-based salient object detection and video object segmentation evaluation toolbox.
 * [**PyLoss**](https://github.com/lartpang/PyLoss), Some loss functions for deeplearning.
+
+**Usefull tools for your deeplearning project.**
+* [**RunIt**](https://github.com/lartpang/RunIt), A simple program scheduler for your code on different devices.
+* [**RegisterIt**](https://github.com/lartpang/RegisterIt), Register it: A more flexible register for the DeepLearning project.
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox" alt="lartpang" /></p>
 <p align="center">
