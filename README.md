@@ -21,11 +21,12 @@ Some interesting projects:
 * [**PyTorchTricks**](https://github.com/lartpang/PyTorchTricks), Some tricks of pytorch... :star: 
 
 **SOD.**
-* [**PySODMetrics**](https://github.com/lartpang/PySODMetrics), A simple and efficient implementation of SOD metrcis.
+* **New:rocket::rocket::rocket:** [**MethodsCmp**](https://github.com/lartpang/MethodsCmp), A simple toolkit for counting the FLOPs/MACs, Parameters and FPS of the model.
+* **Practical:wrench:** [**PySODEvalToolkit**](https://github.com/lartpang/PySODEvalToolkit), A Python-based salient object detection and video object segmentation evaluation toolbox.
+* **Practical:wrench:** [**PySODMetrics**](https://github.com/lartpang/PySODMetrics), A simple and efficient implementation of SOD metrcis.
+* [**PyLoss**](https://github.com/lartpang/PyLoss), Some loss functions for deeplearning.
 * [**OpticalFlowBasedVOS**](https://github.com/lartpang/OpticalFlowBasedVOS), A simple and efficient codebase for the optical flow based video object segmentation.
 * [**CoSaliencyProj**](https://github.com/lartpang/CoSaliencyProj), A project for co-saliency detection. Some codes are borrowed from ICNet. Thanks to ICNet Intra-saliency Correlation Network for Co-Saliency Detection (NIPS2020)~
-* [**PySODEvalToolkit**](https://github.com/lartpang/PySODEvalToolkit), A Python-based salient object detection and video object segmentation evaluation toolbox.
-* [**PyLoss**](https://github.com/lartpang/PyLoss), Some loss functions for deeplearning.
 
 **Usefull tools for your deeplearning project.**
 * [**RunIt**](https://github.com/lartpang/RunIt), A simple program scheduler for your code on different devices.
