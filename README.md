@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm lartpang</h1>
 
 <p align="center">
-  <img align="center" src="https://render.githubusercontent.com/render/math?math=\textbf{life}=\int_{birth}^{now}\mathbf{happy}(time)+\mathbf{sad}(time)d(time)" alt="lartpang" />
+  <img align="center" src="https://render.githubusercontent.com/render/math?math=\textbf{life}=\int_{birth}^{now}\mathbf{happy}(time)%2b\mathbf{sad}(time)d(time)" alt="lartpang" />
 </p>
 
 <p align="center">
