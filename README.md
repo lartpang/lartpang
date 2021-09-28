@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm lartpang</h1>
 
 <p align="center">
+  <img align="center" src="https://render.githubusercontent.com/render/math?math=\textbf{life}=\int_{birth}^{now}\mathbf{happy}(time)+\mathbf{sad}(time)d(time)" alt="lartpang" />
+</p>
+
+<p align="center">
 <a href="https://github.com/lartpang">
  <img align="center" src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox&hide_title=true" alt="lartpang" />
 </a>
