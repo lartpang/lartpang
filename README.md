@@ -1,17 +1,14 @@
+# Hi!
+
 <h1 align="center">Hi 👋, I'm lartpang</h1>
 
-<p align="center">
-  <img align="center" src="https://render.githubusercontent.com/render/math?math=\textbf{life}=\int_{birth}^{now}\mathbf{happy}(time)%2b\mathbf{sad}(time)d(time)" alt="lartpang" />
-</p>
+$$
+\textbf{life} = \int_{birth}^{now} \mathbf{happy}(time) + \mathbf{sad}(time) d(time)
+$$
 
-<p align="center">
-<a href="https://github.com/lartpang">
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox&hide_title=true" alt="lartpang" />
-</a>
-<a href="https://github.com/lartpang">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lartpang&layout=compact" alt="lartpang" />
-</a>
-</p>
+| INFO                                                                                                            | LANGUAGE                                                                                    |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| ![](https://github-readme-stats.vercel.app/api?username=lartpang&show_icons=true&theme=gruvbox&hide_title=true) | ![](https://github-readme-stats.vercel.app/api/top-langs/?username=lartpang&layout=compact) |
 
 <p align="center">A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.</p>
 
@@ -22,7 +19,7 @@
 Some interesting projects:
 
 **PyTorch.**
-* [**PyTorchTricks**](https://github.com/lartpang/PyTorchTricks), Some tricks of pytorch... :star: 
+* [**PyTorchTricks**](https://github.com/lartpang/PyTorchTricks), Some tricks of pytorch… :star:
 
 **SOD.**
 * **New:rocket::rocket::rocket:** [**MethodsCmp**](https://github.com/lartpang/MethodsCmp), A simple toolkit for counting the FLOPs/MACs, Parameters and FPS of the model.
