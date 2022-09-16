@@ -45,6 +45,7 @@ if __name__ == "__main__":
             for entry in entries
         ]
     )
+    print("Information from RSS:\n", entries_md)
 
     # Update entries
     readme = replace_writing(readme, "writing", entries_md)
