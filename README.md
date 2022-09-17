@@ -15,6 +15,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [Arxiv 2209 | Switchable Self-attention Module](https://blog.csdn.net/P_LarT/article/details/126896049) - Fri, 16 Sep 2022: <small>*这篇文章设计了一种可切换式的注意力模块（题目中是self-attention，但是实际模块设计用的还是原始的通道注意力）。在本文中，实验性的发现对于不同的网络层和不同的场景中，对于注意力模块而言，选择使用合适的激励操作是更有必要的。*</small>
 * [ECCV 2022 | Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval](https://blog.csdn.net/P_LarT/article/details/126878555) - Thu, 15 Sep 2022: <small>*本文主要讨论了文本检索视频任务中的特征融合问题。提出了一种基于轻量但是有效的特征融合模块LAFF构建的跨模态双端融合架构。*</small>
 * [使用深度图像实现照片虚化效果](https://blog.csdn.net/P_LarT/article/details/126606557) - Tue, 30 Aug 2022: <small>*本文讨论了如何通过RGB-D图像对实现照片虚化。*</small>
 * [从二值 Mask 获取外接矩形坐标](https://blog.csdn.net/P_LarT/article/details/126604438) - Tue, 30 Aug 2022: <small>*在数字图像处理中，我们有时候会需要计算二值mask对应的外接矩形。本文针对这一问题给出了几种方便的策略。*</small>
@@ -24,7 +25,6 @@ $$
 * [Arxiv 2207 | LightViT: Towards Light-Weight Convolution-Free Vision Transformers](https://blog.csdn.net/P_LarT/article/details/126301936) - Fri, 12 Aug 2022: <small>*本文旨在改进轻量视觉Transformer模型的设计。*</small>
 * [小心你的字典和样板代码](https://blog.csdn.net/P_LarT/article/details/126070605) - Sat, 30 Jul 2022: <small>*编码错误反思*</small>
 * [Arxiv 2106 | Vision Transformers with Hierarchical Attention](https://blog.csdn.net/P_LarT/article/details/125702867) - Sun, 10 Jul 2022: <small>*本文重新设计了视觉Transformer中的多头自注意力（MHSA），以实现更高效的全局关系建模过程，同时又不牺牲细粒度信息。*</small>
-* [CVPR 2022 | Cross-Image Relational Knowledge Distillation for Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/125671757) - Fri, 08 Jul 2022: <small>*当前用于视觉分割的知识蒸馏 (KD) 方法通常指导学生模仿教师网络从独立数据样本生成的结构化信息。然而，他们忽略了对 KD 有价值的跨图像的像素间全局语义关系。本文提出了一种新的跨图像的关系知识蒸馏 (CIRKD)，其重点是在整个图像之间迁移 pixel-to-pixel 和 pixel-to-region 的关系。其中的动机是一个好的教师网络可以根据全局像素依赖性构建一个结构良好的特征空间。CIRKD 使学生更好地模仿教师的结构化语义关系，从而提高分割性能。...*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
