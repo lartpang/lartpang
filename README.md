@@ -15,6 +15,9 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ECCV 2022 | MaxViT: Multi-Axis Vision Transformer](https://blog.csdn.net/P_LarT/article/details/126903713) - Sat, 17 Sep 2022: <small>*本文是针对Attention操作的一种改进。思路上来说之前的卷积方法中已经使用过类似的策略，但是作者们将这种思路用在Attention中，也展现出了良好的效果。
+
+提出的结构Multi-Axis Attention有效改善了原始Attention在实际应用中所欠缺的可放缩性，能够更有效的处理高分辨率特征。具体而言，就是通过完全借助局部注意力实现了局部交互和全局交互的形式（全局交互的实现思想其实值得借鉴），在有效降低计算复杂度的情况下，仍然获得了良好的表现。*</small>
 * [Arxiv 2209 | Switchable Self-attention Module](https://blog.csdn.net/P_LarT/article/details/126896049) - Fri, 16 Sep 2022: <small>*这篇文章设计了一种可切换式的注意力模块（题目中是self-attention，但是实际模块设计用的还是原始的通道注意力）。在本文中，实验性的发现对于不同的网络层和不同的场景中，对于注意力模块而言，选择使用合适的激励操作是更有必要的。*</small>
 * [ECCV 2022 | Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval](https://blog.csdn.net/P_LarT/article/details/126878555) - Thu, 15 Sep 2022: <small>*本文主要讨论了文本检索视频任务中的特征融合问题。提出了一种基于轻量但是有效的特征融合模块LAFF构建的跨模态双端融合架构。*</small>
 * [使用深度图像实现照片虚化效果](https://blog.csdn.net/P_LarT/article/details/126606557) - Tue, 30 Aug 2022: <small>*本文讨论了如何通过RGB-D图像对实现照片虚化。*</small>
@@ -24,7 +27,6 @@ $$
 * [Arxiv 2206 | Global Context Vision Transformers](https://blog.csdn.net/P_LarT/article/details/126409460) - Thu, 18 Aug 2022: <small>*本文的目的主要在于改进自注意力计算的高昂计算成本。所以基于局部自注意力的形式进行了扩展，实现了一种更加高效的全局注意力形式，而免去了Swin那样的划窗操作（划窗操作需要进行padding和mask，以及划窗仅仅会覆盖不同局部区域的部分内容）或者其他更为复杂的例如token unfolding和rolling操作，甚至是对于key和value的额外计算。......*</small>
 * [Arxiv 2207 | LightViT: Towards Light-Weight Convolution-Free Vision Transformers](https://blog.csdn.net/P_LarT/article/details/126301936) - Fri, 12 Aug 2022: <small>*本文旨在改进轻量视觉Transformer模型的设计。*</small>
 * [小心你的字典和样板代码](https://blog.csdn.net/P_LarT/article/details/126070605) - Sat, 30 Jul 2022: <small>*编码错误反思*</small>
-* [Arxiv 2106 | Vision Transformers with Hierarchical Attention](https://blog.csdn.net/P_LarT/article/details/125702867) - Sun, 10 Jul 2022: <small>*本文重新设计了视觉Transformer中的多头自注意力（MHSA），以实现更高效的全局关系建模过程，同时又不牺牲细粒度信息。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
