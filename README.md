@@ -15,6 +15,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR2022 | MPViT: Multi-Path Vision Transformer for Dense Prediction](https://blog.csdn.net/P_LarT/article/details/126989548) - Thu, 22 Sep 2022: <small>*本文重点探究Transformer中的multi-scale patch embedding和multi-path structure scheme的设计。*</small>
 * [OpenCV DNN模块常用操作](https://blog.csdn.net/P_LarT/article/details/126961138) - Tue, 20 Sep 2022: <small>*在实际利用opencv提供的dnn模块部署onnx格式的模型的时候，一些python端利用numpy可以简单轻易实现的操作，在C++端就得仔细考虑下实现的策略了。因为大多数并没有非常简单方便地使用形式，甚至可能需要自己去实现。这里做一个记录。*</small>
 * [CVPR 2022 Oral | MAXIM: Multi-Axis MLP for Image Processing](https://blog.csdn.net/P_LarT/article/details/126931492) - Mon, 19 Sep 2022: <small>*这是一篇在底层视觉任务上构建更有效的局部+全局交互策略的文章，再多个任务上实现了良好的效果。*</small>
 * [ECCV 2022 | MaxViT: Multi-Axis Vision Transformer](https://blog.csdn.net/P_LarT/article/details/126903713) - Sat, 17 Sep 2022: <small>*本文是针对Attention操作的一种改进。思路上来说之前的卷积方法中已经使用过类似的策略，但是作者们将这种思路用在Attention中，也展现出了良好的效果。提出的结构Multi-Axis Attention有效改善了原始Attention在实际应用中所欠缺的可放缩性，能够更有效的处理高分辨率特征。具体而言，就是通过完全借助局部注意力实现了局部交互和全局交互的形式（全局交互的实现思想其实值得借鉴），在有效降低计算复杂度的情况下，仍然获得了良好的表现。*</small>
@@ -24,7 +25,6 @@ $$
 * [从二值 Mask 获取外接矩形坐标](https://blog.csdn.net/P_LarT/article/details/126604438) - Tue, 30 Aug 2022: <small>*在数字图像处理中，我们有时候会需要计算二值mask对应的外接矩形。本文针对这一问题给出了几种方便的策略。*</small>
 * [如何计算质心](https://blog.csdn.net/P_LarT/article/details/126474206) - Mon, 22 Aug 2022: <small>*本文介绍了质心的概念，以及基于Numpy、Scipy、OpenCV等工具的多种实现方式。*</small>
 * [Arxiv 2207 | HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions](https://blog.csdn.net/P_LarT/article/details/126416277) - Fri, 19 Aug 2022: <small>*这篇文章旨在使用卷积结构设计一种更加有效的空间交互模块。作者们通过递归门控策略设计了递归门控卷积操作，从而在特征内部构建了更高阶的空间交互过程。这种结构可以作者为一种即插即用的模块来提升视觉Transformer或者卷积模型。除了构建backbone，也可以用于解码器来提升密集预测任务的性能。...*</small>
-* [Arxiv 2206 | Global Context Vision Transformers](https://blog.csdn.net/P_LarT/article/details/126409460) - Thu, 18 Aug 2022: <small>*本文的目的主要在于改进自注意力计算的高昂计算成本。所以基于局部自注意力的形式进行了扩展，实现了一种更加高效的全局注意力形式，而免去了Swin那样的划窗操作（划窗操作需要进行padding和mask，以及划窗仅仅会覆盖不同局部区域的部分内容）或者其他更为复杂的例如token unfolding和rolling操作，甚至是对于key和value的额外计算。......*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
