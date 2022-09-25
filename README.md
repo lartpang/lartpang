@@ -15,6 +15,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ICCV 2021 Oral | CoaT: Co-Scale Conv-Attentional Image Transformers](https://blog.csdn.net/P_LarT/article/details/127023702) - Sat, 24 Sep 2022: <small>*设计了一种简化的线性注意力机制，并引入了卷积相对位置编码。基于这些构建了一个包含多尺度特征交互的架构。*</small>
 * [CVPR2022 | MPViT: Multi-Path Vision Transformer for Dense Prediction](https://blog.csdn.net/P_LarT/article/details/126989548) - Thu, 22 Sep 2022: <small>*本文重点探究Transformer中的multi-scale patch embedding和multi-path structure scheme的设计。*</small>
 * [OpenCV DNN模块常用操作](https://blog.csdn.net/P_LarT/article/details/126961138) - Tue, 20 Sep 2022: <small>*在实际利用opencv提供的dnn模块部署onnx格式的模型的时候，一些python端利用numpy可以简单轻易实现的操作，在C++端就得仔细考虑下实现的策略了。因为大多数并没有非常简单方便地使用形式，甚至可能需要自己去实现。这里做一个记录。*</small>
 * [CVPR 2022 Oral | MAXIM: Multi-Axis MLP for Image Processing](https://blog.csdn.net/P_LarT/article/details/126931492) - Mon, 19 Sep 2022: <small>*这是一篇在底层视觉任务上构建更有效的局部+全局交互策略的文章，再多个任务上实现了良好的效果。*</small>
@@ -24,7 +25,6 @@ $$
 * [使用深度图像实现照片虚化效果](https://blog.csdn.net/P_LarT/article/details/126606557) - Tue, 30 Aug 2022: <small>*本文讨论了如何通过RGB-D图像对实现照片虚化。*</small>
 * [从二值 Mask 获取外接矩形坐标](https://blog.csdn.net/P_LarT/article/details/126604438) - Tue, 30 Aug 2022: <small>*在数字图像处理中，我们有时候会需要计算二值mask对应的外接矩形。本文针对这一问题给出了几种方便的策略。*</small>
 * [如何计算质心](https://blog.csdn.net/P_LarT/article/details/126474206) - Mon, 22 Aug 2022: <small>*本文介绍了质心的概念，以及基于Numpy、Scipy、OpenCV等工具的多种实现方式。*</small>
-* [Arxiv 2207 | HorNet: Efficient High-Order Spatial Interactions with Recursive Gated Convolutions](https://blog.csdn.net/P_LarT/article/details/126416277) - Fri, 19 Aug 2022: <small>*这篇文章旨在使用卷积结构设计一种更加有效的空间交互模块。作者们通过递归门控策略设计了递归门控卷积操作，从而在特征内部构建了更高阶的空间交互过程。这种结构可以作者为一种即插即用的模块来提升视觉Transformer或者卷积模型。除了构建backbone，也可以用于解码器来提升密集预测任务的性能。...*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
