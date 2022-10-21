@@ -15,6 +15,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [向日葵远控无法启动——[rpcclient]rpcclient_default::connect is error](https://blog.csdn.net/P_LarT/article/details/127423101) - Thu, 20 Oct 2022: <small>*解决linux桌面上向日葵启动失败的问题。即`[rpcclient]rpcclient_default::connect is error (sunloginclient:4212): Gtk-CRITICAL **:10:31:18.209: gtk_nain_quit: assertion 'nain_loops != NULL' failed`*</small>
 * [PyTorch之F.pad的使用与报错记录](https://blog.csdn.net/P_LarT/article/details/127390628) - Tue, 18 Oct 2022: <small>*这一函数用于实现对高维tensor的形状补齐操作。模式中，padding的数量不得超出原始tensor对应维度的大小。常见的错误主要是因为padding的数量超过了对应模式的要求。模式中，padding的数量必须小于对应维度的大小。对于padding并没有限制。*</small>
 * [ECCV 2022 | RGB图像引导下的基于轻量ToF传感器的深度估计](https://blog.csdn.net/P_LarT/article/details/127146695) - Sun, 02 Oct 2022: <small>*文章提出了一种深度估计任务。其主要针对轻量级ToF传感器采集的深度分布数据，在RGB图像的引导下，获得准确的高分辨率深度图，并为此提供了一个数据集。提出的模型获得了更加准确的深度补全和深度超分辨的效果。并实现了与商用级别的RGB-D传感器相当的性能。*</small>
 * [CVPR 2022 | NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation](https://blog.csdn.net/P_LarT/article/details/127124910) - Fri, 30 Sep 2022: <small>*这篇文章将全局全连接CRF使用Attention进行了改造，并使用了基于窗偏移的计算过程实现了更低的计算量。提出的结构被用于单目深度估计任务模型的构建中。*</small>
@@ -24,7 +25,6 @@ $$
 * [CVPR 2022 Oral | MAXIM: Multi-Axis MLP for Image Processing](https://blog.csdn.net/P_LarT/article/details/126931492) - Mon, 19 Sep 2022: <small>*这是一篇在底层视觉任务上构建更有效的局部+全局交互策略的文章，再多个任务上实现了良好的效果。*</small>
 * [ECCV 2022 | MaxViT: Multi-Axis Vision Transformer](https://blog.csdn.net/P_LarT/article/details/126903713) - Sat, 17 Sep 2022: <small>*本文是针对Attention操作的一种改进。思路上来说之前的卷积方法中已经使用过类似的策略，但是作者们将这种思路用在Attention中，也展现出了良好的效果。提出的结构Multi-Axis Attention有效改善了原始Attention在实际应用中所欠缺的可放缩性，能够更有效的处理高分辨率特征。具体而言，就是通过完全借助局部注意力实现了局部交互和全局交互的形式（全局交互的实现思想其实值得借鉴），在有效降低计算复杂度的情况下，仍然获得了良好的表现。*</small>
 * [Arxiv 2209 | Switchable Self-attention Module](https://blog.csdn.net/P_LarT/article/details/126896049) - Fri, 16 Sep 2022: <small>*这篇文章设计了一种可切换式的注意力模块（题目中是self-attention，但是实际模块设计用的还是原始的通道注意力）。在本文中，实验性的发现对于不同的网络层和不同的场景中，对于注意力模块而言，选择使用合适的激励操作是更有必要的。*</small>
-* [ECCV 2022 | Lightweight Attentional Feature Fusion: A New Baseline for Text-to-Video Retrieval](https://blog.csdn.net/P_LarT/article/details/126878555) - Thu, 15 Sep 2022: <small>*本文主要讨论了文本检索视频任务中的特征融合问题。提出了一种基于轻量但是有效的特征融合模块LAFF构建的跨模态双端融合架构。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
