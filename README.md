@@ -15,6 +15,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [PyTorch 中的转置卷积 ConvTranspose2d](https://blog.csdn.net/P_LarT/article/details/127532185) - Wed, 26 Oct 2022: <small>*现有的关于转置卷积的介绍大多流于表面，并未详细的说明这一操作内部具体的操作流程。由于转置卷积的设计主要是为了对标标准卷积，所以其实现流程与标准卷积基本相反，所以内部的操作逻辑并不直观。其按照卷积的相反逻辑的参数设置方式，这种反逻辑的形式使得我们很难直接从参数的角度去理解。and thepaper.这里面涉及到了多个参数，包括这样的一看就可以理解对的参数，也有一些实际情况和我们想的并不一致的参数。*</small>
 * [各种 IoU 损失变体](https://blog.csdn.net/P_LarT/article/details/127502104) - Mon, 24 Oct 2022: <small>*IoU损失及其各种变体已经在密集预测任务中展现出了优异的效果。这里做一个简单的罗列与梳理。*</small>
 * [向日葵远控无法启动——[rpcclient]rpcclient_default::connect is error](https://blog.csdn.net/P_LarT/article/details/127423101) - Thu, 20 Oct 2022: <small>*解决linux桌面上向日葵启动失败的问题。即`[rpcclient]rpcclient_default::connect is error (sunloginclient:4212): Gtk-CRITICAL **:10:31:18.209: gtk_nain_quit: assertion 'nain_loops != NULL' failed`*</small>
 * [PyTorch之F.pad的使用与报错记录](https://blog.csdn.net/P_LarT/article/details/127390628) - Tue, 18 Oct 2022: <small>*这一函数用于实现对高维tensor的形状补齐操作。模式中，padding的数量不得超出原始tensor对应维度的大小。常见的错误主要是因为padding的数量超过了对应模式的要求。模式中，padding的数量必须小于对应维度的大小。对于padding并没有限制。*</small>
@@ -24,7 +25,6 @@ $$
 * [CVPR2022 | MPViT: Multi-Path Vision Transformer for Dense Prediction](https://blog.csdn.net/P_LarT/article/details/126989548) - Thu, 22 Sep 2022: <small>*本文重点探究Transformer中的multi-scale patch embedding和multi-path structure scheme的设计。*</small>
 * [OpenCV DNN模块常用操作](https://blog.csdn.net/P_LarT/article/details/126961138) - Tue, 20 Sep 2022: <small>*在实际利用opencv提供的dnn模块部署onnx格式的模型的时候，一些python端利用numpy可以简单轻易实现的操作，在C++端就得仔细考虑下实现的策略了。因为大多数并没有非常简单方便地使用形式，甚至可能需要自己去实现。这里做一个记录。*</small>
 * [CVPR 2022 Oral | MAXIM: Multi-Axis MLP for Image Processing](https://blog.csdn.net/P_LarT/article/details/126931492) - Mon, 19 Sep 2022: <small>*这是一篇在底层视觉任务上构建更有效的局部+全局交互策略的文章，再多个任务上实现了良好的效果。*</small>
-* [ECCV 2022 | MaxViT: Multi-Axis Vision Transformer](https://blog.csdn.net/P_LarT/article/details/126903713) - Sat, 17 Sep 2022: <small>*本文是针对Attention操作的一种改进。思路上来说之前的卷积方法中已经使用过类似的策略，但是作者们将这种思路用在Attention中，也展现出了良好的效果。提出的结构Multi-Axis Attention有效改善了原始Attention在实际应用中所欠缺的可放缩性，能够更有效的处理高分辨率特征。具体而言，就是通过完全借助局部注意力实现了局部交互和全局交互的形式（全局交互的实现思想其实值得借鉴），在有效降低计算复杂度的情况下，仍然获得了良好的表现。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
