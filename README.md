@@ -6,7 +6,13 @@ $$
 \textbf{life} = \int_{birth}^{now} \mathbf{happy}(time) + \mathbf{sad}(time) d(time)
 $$
 
-<p align="center">A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.</p>
+<p align="center">
+  A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.<br /><br />
+  
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,git,docker,github,githubactions,linux,md,latex,matlab,vscode,regex" />
+  </a>
+</p>
 
 - 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
 - 💬 Ask me about **Python, PyTorch** in [ISSUES](https://github.com/lartpang/lartpang/issues)
