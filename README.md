@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [各种 Dice Loss 变体](https://blog.csdn.net/P_LarT/article/details/127585095) - Sat, 29 Oct 2022: <small>*Dice Loss也是图像分割任务中非常常见的一个损失函数。本文基于 [Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks](https://arxiv.org/abs/1707.00478) 中的内容进行了整理。*</small>
 * [PyTorch 中的转置卷积 ConvTranspose2d](https://blog.csdn.net/P_LarT/article/details/127532185) - Wed, 26 Oct 2022: <small>*现有的关于转置卷积的介绍大多流于表面，并未详细的说明这一操作内部具体的操作流程。由于转置卷积的设计主要是为了对标标准卷积，所以其实现流程与标准卷积基本相反，所以内部的操作逻辑并不直观。其按照卷积的相反逻辑的参数设置方式，这种反逻辑的形式使得我们很难直接从参数的角度去理解。and thepaper.这里面涉及到了多个参数，包括这样的一看就可以理解对的参数，也有一些实际情况和我们想的并不一致的参数。*</small>
 * [各种 IoU 损失变体](https://blog.csdn.net/P_LarT/article/details/127502104) - Mon, 24 Oct 2022: <small>*IoU损失及其各种变体已经在密集预测任务中展现出了优异的效果。这里做一个简单的罗列与梳理。*</small>
 * [向日葵远控无法启动——[rpcclient]rpcclient_default::connect is error](https://blog.csdn.net/P_LarT/article/details/127423101) - Thu, 20 Oct 2022: <small>*解决linux桌面上向日葵启动失败的问题。即`[rpcclient]rpcclient_default::connect is error (sunloginclient:4212): Gtk-CRITICAL **:10:31:18.209: gtk_nain_quit: assertion 'nain_loops != NULL' failed`*</small>
@@ -30,7 +31,6 @@ $$
 * [ICCV 2021 Oral | CoaT: Co-Scale Conv-Attentional Image Transformers](https://blog.csdn.net/P_LarT/article/details/127023702) - Sat, 24 Sep 2022: <small>*设计了一种简化的线性注意力机制，并引入了卷积相对位置编码。基于这些构建了一个包含多尺度特征交互的架构。*</small>
 * [CVPR2022 | MPViT: Multi-Path Vision Transformer for Dense Prediction](https://blog.csdn.net/P_LarT/article/details/126989548) - Thu, 22 Sep 2022: <small>*本文重点探究Transformer中的multi-scale patch embedding和multi-path structure scheme的设计。*</small>
 * [OpenCV DNN模块常用操作](https://blog.csdn.net/P_LarT/article/details/126961138) - Tue, 20 Sep 2022: <small>*在实际利用opencv提供的dnn模块部署onnx格式的模型的时候，一些python端利用numpy可以简单轻易实现的操作，在C++端就得仔细考虑下实现的策略了。因为大多数并没有非常简单方便地使用形式，甚至可能需要自己去实现。这里做一个记录。*</small>
-* [CVPR 2022 Oral | MAXIM: Multi-Axis MLP for Image Processing](https://blog.csdn.net/P_LarT/article/details/126931492) - Mon, 19 Sep 2022: <small>*这是一篇在底层视觉任务上构建更有效的局部+全局交互策略的文章，再多个任务上实现了良好的效果。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
