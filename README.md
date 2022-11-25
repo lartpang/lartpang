@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [BN、CBN、CmBN 的对比与总结](https://blog.csdn.net/P_LarT/article/details/128026229) - Thu, 24 Nov 2022: <small>*对BN、CBN和CmBN的一个简单记录。*</small>
 * [编码与数学之循环](https://blog.csdn.net/P_LarT/article/details/127842494) - Mon, 14 Nov 2022: <small>*编写代码过程中，经常会遇到一些奇奇怪怪的需求，有一些问题一眼看上去很复杂，但是实际上通过特定的数学运算过程就可以很方便的实现。这里记录几种比较典型的案例。*</small>
 * [各种 Dice Loss 变体](https://blog.csdn.net/P_LarT/article/details/127585095) - Sat, 29 Oct 2022: <small>*Dice Loss也是图像分割任务中非常常见的一个损失函数。本文基于 [Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks](https://arxiv.org/abs/1707.00478) 中的内容进行了整理。*</small>
 * [PyTorch 中的转置卷积 ConvTranspose2d](https://blog.csdn.net/P_LarT/article/details/127532185) - Wed, 26 Oct 2022: <small>*现有的关于转置卷积的介绍大多流于表面，并未详细的说明这一操作内部具体的操作流程。由于转置卷积的设计主要是为了对标标准卷积，所以其实现流程与标准卷积基本相反，所以内部的操作逻辑并不直观。其按照卷积的相反逻辑的参数设置方式，这种反逻辑的形式使得我们很难直接从参数的角度去理解。and thepaper.这里面涉及到了多个参数，包括这样的一看就可以理解对的参数，也有一些实际情况和我们想的并不一致的参数。*</small>
@@ -30,7 +31,6 @@ $$
 * [ECCV 2022 | RGB图像引导下的基于轻量ToF传感器的深度估计](https://blog.csdn.net/P_LarT/article/details/127146695) - Sun, 02 Oct 2022: <small>*文章提出了一种深度估计任务。其主要针对轻量级ToF传感器采集的深度分布数据，在RGB图像的引导下，获得准确的高分辨率深度图，并为此提供了一个数据集。提出的模型获得了更加准确的深度补全和深度超分辨的效果。并实现了与商用级别的RGB-D传感器相当的性能。*</small>
 * [CVPR 2022 | NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation](https://blog.csdn.net/P_LarT/article/details/127124910) - Fri, 30 Sep 2022: <small>*这篇文章将全局全连接CRF使用Attention进行了改造，并使用了基于窗偏移的计算过程实现了更低的计算量。提出的结构被用于单目深度估计任务模型的构建中。*</small>
 * [ICCV 2021 Oral | CoaT: Co-Scale Conv-Attentional Image Transformers](https://blog.csdn.net/P_LarT/article/details/127023702) - Sat, 24 Sep 2022: <small>*设计了一种简化的线性注意力机制，并引入了卷积相对位置编码。基于这些构建了一个包含多尺度特征交互的架构。*</small>
-* [CVPR2022 | MPViT: Multi-Path Vision Transformer for Dense Prediction](https://blog.csdn.net/P_LarT/article/details/126989548) - Thu, 22 Sep 2022: <small>*本文重点探究Transformer中的multi-scale patch embedding和multi-path structure scheme的设计。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
