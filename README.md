@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [windows 上编译 cpu 版本的 ncnn](https://blog.csdn.net/P_LarT/article/details/128956760) - Thu, 09 Feb 2023: <small>*windows ncnn cpu*</small>
 * [Opencv DNN C++ CPU 平台编译配置过程](https://blog.csdn.net/P_LarT/article/details/128882415) - Sat, 04 Feb 2023: <small>*以下内容基于 windows 平台，实际上不同平台在基础工具齐全的情况下，编译过程差异并不大。opencv 随着版本的更新，对于不同算子的支持也会逐步完善，所以尽量使用新的版本。*</small>
 * [BN、CBN、CmBN 的对比与总结](https://blog.csdn.net/P_LarT/article/details/128026229) - Thu, 24 Nov 2022: <small>*对BN、CBN和CmBN的一个简单记录。*</small>
 * [编码与数学之循环](https://blog.csdn.net/P_LarT/article/details/127842494) - Mon, 14 Nov 2022: <small>*编写代码过程中，经常会遇到一些奇奇怪怪的需求，有一些问题一眼看上去很复杂，但是实际上通过特定的数学运算过程就可以很方便的实现。这里记录几种比较典型的案例。*</small>
@@ -30,7 +31,6 @@ $$
 * [向日葵远控无法启动——[rpcclient]rpcclient_default::connect is error](https://blog.csdn.net/P_LarT/article/details/127423101) - Thu, 20 Oct 2022: <small>*解决linux桌面上向日葵启动失败的问题。即`[rpcclient]rpcclient_default::connect is error (sunloginclient:4212): Gtk-CRITICAL **:10:31:18.209: gtk_nain_quit: assertion 'nain_loops != NULL' failed`*</small>
 * [PyTorch之F.pad的使用与报错记录](https://blog.csdn.net/P_LarT/article/details/127390628) - Tue, 18 Oct 2022: <small>*这一函数用于实现对高维tensor的形状补齐操作。模式中，padding的数量不得超出原始tensor对应维度的大小。常见的错误主要是因为padding的数量超过了对应模式的要求。模式中，padding的数量必须小于对应维度的大小。对于padding并没有限制。*</small>
 * [ECCV 2022 | RGB图像引导下的基于轻量ToF传感器的深度估计](https://blog.csdn.net/P_LarT/article/details/127146695) - Sun, 02 Oct 2022: <small>*文章提出了一种深度估计任务。其主要针对轻量级ToF传感器采集的深度分布数据，在RGB图像的引导下，获得准确的高分辨率深度图，并为此提供了一个数据集。提出的模型获得了更加准确的深度补全和深度超分辨的效果。并实现了与商用级别的RGB-D传感器相当的性能。*</small>
-* [CVPR 2022 | NeW CRFs: Neural Window Fully-connected CRFs for Monocular Depth Estimation](https://blog.csdn.net/P_LarT/article/details/127124910) - Fri, 30 Sep 2022: <small>*这篇文章将全局全连接CRF使用Attention进行了改造，并使用了基于窗偏移的计算过程实现了更低的计算量。提出的结构被用于单目深度估计任务模型的构建中。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
