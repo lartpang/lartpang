@@ -21,6 +21,10 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR 2023 | FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](https://blog.csdn.net/P_LarT/article/details/130158346) - Fri, 14 Apr 2023: <small>*Open Vocabulary 学习范式将分割系统推广到更通用的应用场景. 现有的定制化的设计范式导致各种分割任务之间的碎片化, 从而阻碍了分割模型的统一性.
+所以本文基于one-shot训练的形式, 提出了一种统一参数和结构的通用模型用于处理 Open Vocabulary 分割任务.
+并引入了prompt来统一不同的任务和类别概念, 以适应不同的任务和场景.*</small>
+* [ECCV 2022 | MaskCLIP: Extract Free Dense Labels from CLIP](https://blog.csdn.net/P_LarT/article/details/130157634) - Fri, 14 Apr 2023: <small>*以往的研究主要是利用CLIP特征作为一种全局图像表示，本文主要探索预训练的CLIP模型对于像素级预测任务的潜在优势。*</small>
 * [CVPR | Generative Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/129988887) - Thu, 06 Apr 2023: <small>*使用生成方法建立的图像分割模型*</small>
 * [windows 上编译 cpu 版本的 ncnn](https://blog.csdn.net/P_LarT/article/details/128956760) - Thu, 09 Feb 2023: <small>*windows ncnn cpu*</small>
 * [Opencv DNN C++ CPU 平台编译配置过程](https://blog.csdn.net/P_LarT/article/details/128882415) - Sat, 04 Feb 2023: <small>*以下内容基于 windows 平台，实际上不同平台在基础工具齐全的情况下，编译过程差异并不大。opencv 随着版本的更新，对于不同算子的支持也会逐步完善，所以尽量使用新的版本。*</small>
@@ -29,8 +33,6 @@ $$
 * [各种 Dice Loss 变体](https://blog.csdn.net/P_LarT/article/details/127585095) - Sat, 29 Oct 2022: <small>*Dice Loss也是图像分割任务中非常常见的一个损失函数。本文基于 [Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks](https://arxiv.org/abs/1707.00478) 中的内容进行了整理。*</small>
 * [PyTorch 中的转置卷积 ConvTranspose2d](https://blog.csdn.net/P_LarT/article/details/127532185) - Wed, 26 Oct 2022: <small>*现有的关于转置卷积的介绍大多流于表面，并未详细的说明这一操作内部具体的操作流程。由于转置卷积的设计主要是为了对标标准卷积，所以其实现流程与标准卷积基本相反，所以内部的操作逻辑并不直观。其按照卷积的相反逻辑的参数设置方式，这种反逻辑的形式使得我们很难直接从参数的角度去理解。and thepaper.这里面涉及到了多个参数，包括这样的一看就可以理解对的参数，也有一些实际情况和我们想的并不一致的参数。*</small>
 * [各种 IoU 损失变体](https://blog.csdn.net/P_LarT/article/details/127502104) - Mon, 24 Oct 2022: <small>*IoU损失及其各种变体已经在密集预测任务中展现出了优异的效果。这里做一个简单的罗列与梳理。*</small>
-* [向日葵远控无法启动——[rpcclient]rpcclient_default::connect is error](https://blog.csdn.net/P_LarT/article/details/127423101) - Thu, 20 Oct 2022: <small>*解决linux桌面上向日葵启动失败的问题。即`[rpcclient]rpcclient_default::connect is error (sunloginclient:4212): Gtk-CRITICAL **:10:31:18.209: gtk_nain_quit: assertion 'nain_loops != NULL' failed`*</small>
-* [PyTorch之F.pad的使用与报错记录](https://blog.csdn.net/P_LarT/article/details/127390628) - Tue, 18 Oct 2022: <small>*这一函数用于实现对高维tensor的形状补齐操作。模式中，padding的数量不得超出原始tensor对应维度的大小。常见的错误主要是因为padding的数量超过了对应模式的要求。模式中，padding的数量必须小于对应维度的大小。对于padding并没有限制。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
