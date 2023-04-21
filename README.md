@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR 2023 | Texture-guided Saliency Distilling for Unsupervised Salient Object Detection](https://blog.csdn.net/P_LarT/article/details/130269082) - Thu, 20 Apr 2023: <small>*无监督显著性目标检测任务的常用策略是伪标签手段. 伪标签中会存在大量的噪声. 如何处理带噪标签是无监督显著性目标检测任务工作的一大重点. 现有方法专注利用有着更加可靠标签的容易样本, 但是忽略了难样本中有价值的知识. 这篇文章中关注与同时挖掘难易样本中的显著性知识.*</small>
 * [CVPR 2023 | FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](https://blog.csdn.net/P_LarT/article/details/130158346) - Fri, 14 Apr 2023: <small>*Open Vocabulary 学习范式将分割系统推广到更通用的应用场景. 现有的定制化的设计范式导致各种分割任务之间的碎片化, 从而阻碍了分割模型的统一性.
 所以本文基于one-shot训练的形式, 提出了一种统一参数和结构的通用模型用于处理 Open Vocabulary 分割任务.
 并引入了prompt来统一不同的任务和类别概念, 以适应不同的任务和场景.*</small>
@@ -32,7 +33,6 @@ $$
 * [编码与数学之循环](https://blog.csdn.net/P_LarT/article/details/127842494) - Mon, 14 Nov 2022: <small>*编写代码过程中，经常会遇到一些奇奇怪怪的需求，有一些问题一眼看上去很复杂，但是实际上通过特定的数学运算过程就可以很方便的实现。这里记录几种比较典型的案例。*</small>
 * [各种 Dice Loss 变体](https://blog.csdn.net/P_LarT/article/details/127585095) - Sat, 29 Oct 2022: <small>*Dice Loss也是图像分割任务中非常常见的一个损失函数。本文基于 [Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks](https://arxiv.org/abs/1707.00478) 中的内容进行了整理。*</small>
 * [PyTorch 中的转置卷积 ConvTranspose2d](https://blog.csdn.net/P_LarT/article/details/127532185) - Wed, 26 Oct 2022: <small>*现有的关于转置卷积的介绍大多流于表面，并未详细的说明这一操作内部具体的操作流程。由于转置卷积的设计主要是为了对标标准卷积，所以其实现流程与标准卷积基本相反，所以内部的操作逻辑并不直观。其按照卷积的相反逻辑的参数设置方式，这种反逻辑的形式使得我们很难直接从参数的角度去理解。and thepaper.这里面涉及到了多个参数，包括这样的一看就可以理解对的参数，也有一些实际情况和我们想的并不一致的参数。*</small>
-* [各种 IoU 损失变体](https://blog.csdn.net/P_LarT/article/details/127502104) - Mon, 24 Oct 2022: <small>*IoU损失及其各种变体已经在密集预测任务中展现出了优异的效果。这里做一个简单的罗列与梳理。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
