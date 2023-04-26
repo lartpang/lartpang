@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR 2023 | Reliability in Semantic Segmentation: Are We on the Right Track?](https://blog.csdn.net/P_LarT/article/details/130368801) - Tue, 25 Apr 2023: <small>*最近计算机视觉由于Transformer获得了急速的发展，虽然域内性能有着上升趋势，但对鲁棒性或不确定性估计等特性的探索较少，这使人们对模型可靠性方面的进步水平产生了怀疑。现有一些工作虽然对此有所探索，但是主要集中在分类模型。这份工作在语义分割中开展了相关的探究，横跨了较旧的基于ResNet的架构到较新的Transformer架构：发现了尽管最近的模型更加鲁棒，但在不确定性估计上总体并未更可靠；探索了可以挽救的方法，并表明提升calibration也可以帮助其他不确定性指标，如misclassificati*</small>
 * [CVPR 2022 | Segment Everything Everywhere All at Once](https://blog.csdn.net/P_LarT/article/details/130298712) - Fri, 21 Apr 2023: <small>*本文基于CLIP强大的零样本的文本编码和图像编码能力, 设计了一个新的系统, 基于测试时任意的Prompt信息(任意的文本或者图像提示), 来生成图像分割, 整体的形式非常类似于Few-shot的Segmentation形式.*</small>
 * [CVPR 2023 | Texture-guided Saliency Distilling for Unsupervised Salient Object Detection](https://blog.csdn.net/P_LarT/article/details/130269082) - Thu, 20 Apr 2023: <small>*无监督显著性目标检测任务的常用策略是伪标签手段. 伪标签中会存在大量的噪声. 如何处理带噪标签是无监督显著性目标检测任务工作的一大重点. 现有方法专注利用有着更加可靠标签的容易样本, 但是忽略了难样本中有价值的知识. 这篇文章中关注与同时挖掘难易样本中的显著性知识.*</small>
 * [CVPR 2023 | FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](https://blog.csdn.net/P_LarT/article/details/130158346) - Fri, 14 Apr 2023: <small>*Open Vocabulary 学习范式将分割系统推广到更通用的应用场景. 现有的定制化的设计范式导致各种分割任务之间的碎片化, 从而阻碍了分割模型的统一性.
@@ -32,7 +33,6 @@ $$
 * [Opencv DNN C++ CPU 平台编译配置过程](https://blog.csdn.net/P_LarT/article/details/128882415) - Sat, 04 Feb 2023: <small>*以下内容基于 windows 平台，实际上不同平台在基础工具齐全的情况下，编译过程差异并不大。opencv 随着版本的更新，对于不同算子的支持也会逐步完善，所以尽量使用新的版本。*</small>
 * [BN、CBN、CmBN 的对比与总结](https://blog.csdn.net/P_LarT/article/details/128026229) - Thu, 24 Nov 2022: <small>*对BN、CBN和CmBN的一个简单记录。*</small>
 * [编码与数学之循环](https://blog.csdn.net/P_LarT/article/details/127842494) - Mon, 14 Nov 2022: <small>*编写代码过程中，经常会遇到一些奇奇怪怪的需求，有一些问题一眼看上去很复杂，但是实际上通过特定的数学运算过程就可以很方便的实现。这里记录几种比较典型的案例。*</small>
-* [各种 Dice Loss 变体](https://blog.csdn.net/P_LarT/article/details/127585095) - Sat, 29 Oct 2022: <small>*Dice Loss也是图像分割任务中非常常见的一个损失函数。本文基于 [Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks](https://arxiv.org/abs/1707.00478) 中的内容进行了整理。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
