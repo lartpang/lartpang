@@ -7,11 +7,9 @@ $$
 $$
 
 <p align="center">
-  A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.<br /><br />
-  
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,git,docker,github,githubactions,linux,md,latex,matlab,vscode,regex" />
-  </a>
+  A Python and PyTorch developer, deep-learning worker and open-source activist. I like python. Python can do anything.<br /><br />   
+  <img src="https://github.com/lartpang/lartpang/assets/26847524/f040fb47-f59c-4708-aacb-7ab4e7389bc3" />  
+  Created by Bing Image Creator 😊
 </p>
 
 - 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
