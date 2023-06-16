@@ -19,6 +19,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR 2023 | Making Vision Transformers Efficient from A Token Sparsification View](https://blog.csdn.net/P_LarT/article/details/131226411) - Thu, 15 Jun 2023: <small>*CVPR 2023，基于token稀疏化的transformer高效模型。*</small>
 * [CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/131083586) - Wed, 07 Jun 2023: <small>*基于图像文本匹配的cost volume细化与预测分割。*</small>
 * [CVPR 2023 | EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](https://blog.csdn.net/P_LarT/article/details/130687567) - Mon, 15 May 2023: <small>*EfficientViT，推理更快的ViT。*</small>
 * [CVPR 2023 | Reliability in Semantic Segmentation: Are We on the Right Track?](https://blog.csdn.net/P_LarT/article/details/130368801) - Tue, 25 Apr 2023: <small>*最近计算机视觉由于Transformer获得了急速的发展，虽然域内性能有着上升趋势，但对鲁棒性或不确定性估计等特性的探索较少，这使人们对模型可靠性方面的进步水平产生了怀疑。现有一些工作虽然对此有所探索，但是主要集中在分类模型。这份工作在语义分割中开展了相关的探究，横跨了较旧的基于ResNet的架构到较新的Transformer架构：发现了尽管最近的模型更加鲁棒，但在不确定性估计上总体并未更可靠；探索了可以挽救的方法，并表明提升calibration也可以帮助其他不确定性指标，如misclassificati*</small>
@@ -30,7 +31,6 @@ $$
 * [ECCV 2022 | MaskCLIP: Extract Free Dense Labels from CLIP](https://blog.csdn.net/P_LarT/article/details/130157634) - Fri, 14 Apr 2023: <small>*以往的研究主要是利用CLIP特征作为一种全局图像表示，本文主要探索预训练的CLIP模型对于像素级预测任务的潜在优势。*</small>
 * [CVPR | Generative Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/129988887) - Thu, 06 Apr 2023: <small>*使用生成方法建立的图像分割模型*</small>
 * [windows 上编译 cpu 版本的 ncnn](https://blog.csdn.net/P_LarT/article/details/128956760) - Thu, 09 Feb 2023: <small>*windows ncnn cpu*</small>
-* [Opencv DNN C++ CPU 平台编译配置过程](https://blog.csdn.net/P_LarT/article/details/128882415) - Sat, 04 Feb 2023: <small>*以下内容基于 windows 平台，实际上不同平台在基础工具齐全的情况下，编译过程差异并不大。opencv 随着版本的更新，对于不同算子的支持也会逐步完善，所以尽量使用新的版本。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
