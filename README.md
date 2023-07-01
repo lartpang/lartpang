@@ -19,6 +19,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [CVPR 2023 | SAN: Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/131473097) - Fri, 30 Jun 2023: <small>*基于CLIP构建开放词汇语义分割模型。*</small>
 * [CVPR 2023 | Making Vision Transformers Efficient from A Token Sparsification View](https://blog.csdn.net/P_LarT/article/details/131226411) - Thu, 15 Jun 2023: <small>*CVPR 2023，基于token稀疏化的transformer高效模型。*</small>
 * [CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/131083586) - Wed, 07 Jun 2023: <small>*基于图像文本匹配的cost volume细化与预测分割。*</small>
 * [CVPR 2023 | EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](https://blog.csdn.net/P_LarT/article/details/130687567) - Mon, 15 May 2023: <small>*EfficientViT，推理更快的ViT。*</small>
@@ -30,7 +31,6 @@ $$
 并引入了prompt来统一不同的任务和类别概念, 以适应不同的任务和场景.*</small>
 * [ECCV 2022 | MaskCLIP: Extract Free Dense Labels from CLIP](https://blog.csdn.net/P_LarT/article/details/130157634) - Fri, 14 Apr 2023: <small>*以往的研究主要是利用CLIP特征作为一种全局图像表示，本文主要探索预训练的CLIP模型对于像素级预测任务的潜在优势。*</small>
 * [CVPR | Generative Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/129988887) - Thu, 06 Apr 2023: <small>*使用生成方法建立的图像分割模型*</small>
-* [windows 上编译 cpu 版本的 ncnn](https://blog.csdn.net/P_LarT/article/details/128956760) - Thu, 09 Feb 2023: <small>*windows ncnn cpu*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
