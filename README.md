@@ -19,6 +19,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [Arxiv 2307 | Retentive Network: A Successor to Transformer for Large Language Models](https://blog.csdn.net/P_LarT/article/details/131816026) - Wed, 19 Jul 2023: <small>*本文从序列建模的角度，构建了一种类似Transformer且更加高效的结构。在语言任务上展现出了良好的效率和性能。*</small>
 * [CVPR 2023 | OVSeg: Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP](https://blog.csdn.net/P_LarT/article/details/131685814) - Wed, 12 Jul 2023: <small>*预训练的 CLIP 无法对 masked image 执行令人满意的分类，这是两阶段开放词汇分割模型的性能瓶颈。本文认为这是由于蒙面图像和 CLIP 的训练图像之间的显著域差距造成的。所以需要对 CLIP 进行微调*</small>
 * [Arxiv 2305 | Refocusing Is Key to Transfer Learning](https://blog.csdn.net/P_LarT/article/details/131645601) - Mon, 10 Jul 2023: <small>*本文提出的TOAST强调的是在预训练模型迁移过程中进一步强化目标任务相关的注意力信息是很重要的。Transformer 模型通常是自下而上的，即其注意力仅取决于输入，因此，它通常突出输入信号中的所有显着特征。与自底而上的注意力相反，由顶而下的注意力赋予了根据高级目标或任务调整注意力的能力，即它只关注与任务相关的特征而忽略其他特征。*</small>
 * [CVPR 2023 | SAN: Side Adapter Network for Open-Vocabulary Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/131473097) - Fri, 30 Jun 2023: <small>*基于CLIP构建开放词汇语义分割模型。*</small>
@@ -28,9 +29,6 @@ $$
 * [CVPR 2023 | Reliability in Semantic Segmentation: Are We on the Right Track?](https://blog.csdn.net/P_LarT/article/details/130368801) - Tue, 25 Apr 2023: <small>*最近计算机视觉由于Transformer获得了急速的发展，虽然域内性能有着上升趋势，但对鲁棒性或不确定性估计等特性的探索较少，这使人们对模型可靠性方面的进步水平产生了怀疑。现有一些工作虽然对此有所探索，但是主要集中在分类模型。这份工作在语义分割中开展了相关的探究，横跨了较旧的基于ResNet的架构到较新的Transformer架构：发现了尽管最近的模型更加鲁棒，但在不确定性估计上总体并未更可靠；探索了可以挽救的方法，并表明提升calibration也可以帮助其他不确定性指标，如misclassificati*</small>
 * [CVPR 2022 | Segment Everything Everywhere All at Once](https://blog.csdn.net/P_LarT/article/details/130298712) - Fri, 21 Apr 2023: <small>*本文基于CLIP强大的零样本的文本编码和图像编码能力, 设计了一个新的系统, 基于测试时任意的Prompt信息(任意的文本或者图像提示), 来生成图像分割, 整体的形式非常类似于Few-shot的Segmentation形式.*</small>
 * [CVPR 2023 | Texture-guided Saliency Distilling for Unsupervised Salient Object Detection](https://blog.csdn.net/P_LarT/article/details/130269082) - Thu, 20 Apr 2023: <small>*无监督显著性目标检测任务的常用策略是伪标签手段. 伪标签中会存在大量的噪声. 如何处理带噪标签是无监督显著性目标检测任务工作的一大重点. 现有方法专注利用有着更加可靠标签的容易样本, 但是忽略了难样本中有价值的知识. 这篇文章中关注与同时挖掘难易样本中的显著性知识.*</small>
-* [CVPR 2023 | FreeSeg: Unified, Universal and Open-Vocabulary Image Segmentation](https://blog.csdn.net/P_LarT/article/details/130158346) - Fri, 14 Apr 2023: <small>*Open Vocabulary 学习范式将分割系统推广到更通用的应用场景. 现有的定制化的设计范式导致各种分割任务之间的碎片化, 从而阻碍了分割模型的统一性.
-所以本文基于one-shot训练的形式, 提出了一种统一参数和结构的通用模型用于处理 Open Vocabulary 分割任务.
-并引入了prompt来统一不同的任务和类别概念, 以适应不同的任务和场景.*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
