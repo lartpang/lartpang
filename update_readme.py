@@ -16,7 +16,7 @@ def replace_writing(content, marker, chunk, inline=False):
 
 
 def fetch_writing():
-    rss_info = feedparser.parse("https://blog.csdn.net/p_lart/rss/list")
+    rss_info = feedparser.parse("https://rss.csdn.net/P_LarT/rss/map")
     entries = rss_info["entries"]
     recent_entries = entries[:10]
 
