@@ -9,8 +9,9 @@ $$
 <p align="center">
   A Python and PyTorch developer, deep-learning worker and open-source activist.
   <br /><br />
-  <img src="https://github.com/lartpang/lartpang/assets/26847524/ece631d5-0140-4c1d-8211-0d8256cff84a" />
-  Created by Bing Image Creator 😊
+
+  <img src="https://github.com/lartpang/lartpang/assets/26847524/47e4b857-c6b7-4237-a637-0ec73485e48e" />
+  Created by the awesome <a href="https://erikdemaine.org/fonts/tetris/">tool</a>. 😊
 </p>
 
 * 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
