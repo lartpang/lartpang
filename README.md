@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ICLR 2024 - Spike-driven Transformer V2 - Meta Spiking Neural Network Architecture Inspiring the Des](https://blog.csdn.net/P_LarT/article/details/141265409) - Fri, 16 Aug 2024: <small>*具体来说，本文将 NeurIPS 2023 发表的第一版工作中的脉冲驱动的 Transformer 扩展为元架构，并探索了结构、脉冲驱动自注意力和跳跃连接对其性能的影响。*</small>
 * [ArXiv 2405 | Rethinking Scanning Strategies with Vision Mamba in SemSeg of Remote Sensing Imagery](https://blog.csdn.net/P_LarT/article/details/139011603) - Fri, 17 May 2024: <small>*这项研究对主流扫描方向及其组合对遥感图像语义分割的影响进行了全面的实验研究。通过在 LoveDA，ISPRS Potsdam 和 ISPRS Vaihingen 数据集上进行的广泛实验，我们证明，**无论其复杂性或所涉及的扫描方向数量如何，都没有单一的扫描策略能胜过其他扫描策略。简单的单个扫描方向被认为足以对高分辨率遥感图像进行语义分割。** 还建议了未来研究的相关方向。*</small>
 * [ICLR 2024 | FasterViT: Fast Vision Transformers with Hierarchical Attention](https://blog.csdn.net/P_LarT/article/details/139006516) - Fri, 17 May 2024: <small>*本文提出了一种 CNN 和 ViT 的混合架构，即 FasterViT。这样的混合架构可以快速生成高质量 token，然后基于 Transformer 块来进一步处理这些 token。其重点在于结合架构组合和高效的注意力模块的设计，从而优化 ViT 模型的计算效率，提高图像的吞吐率，加强对于高分辨率图像的适应能力。*</small>
 * [ICCV 2021 | FcaNet: Frequency Channel Attention Networks 中的频率分析](https://blog.csdn.net/P_LarT/article/details/138244386) - Sat, 27 Apr 2024: <small>*文章是围绕 2D 的 DCT 进行展开的，本文针对具体的计算逻辑进行梳理和解析。*</small>
@@ -30,7 +31,6 @@ $$
 * [CVPR 2024 | SED: A Simple Encoder-Decoder for Open-Vocabulary Semantic Segmentation](https://blog.csdn.net/P_LarT/article/details/137677438) - Fri, 12 Apr 2024: <small>*这篇文章提出了一种名为 SED 的简单编码器解码器，用于结合 CLIP 的 open-vocabulary 能力实现了开放词汇语义分割。在多个语义分割数据集上的实验证明了 SED 在开放词汇准确性和效率方面的优势。当使用 ConvNeXt-B 时，SED 在 ADE20K 上的 mIoU 得分为 31.6%，并且在单个 A6000 上每张图像只需 82 毫秒。*</small>
 * [CVPR 2024 | Rethinking Interactive Image Segmentationwith Low Latency, High Quality, and Diverse Pro](https://blog.csdn.net/P_LarT/article/details/137635048) - Thu, 11 Apr 2024: <small>*现有的专家模型和通用模型在实现低延迟、高质量的交互式分割以及支持多种提示方面存在困难。研究人员提出了一种名为 SegNext 的方法，它重新引入了专家模型中常用的密集视觉提示的表示和融合方式，以促进高质量的分割。是实现高质量分割的关键设计选择。与现有的专家模型相比，该方法能够在保持低延迟的同时实现更好的分割效果。相比之下，本文提出的方法通过引入密集的视觉提示和优化模型结构，实现了低延时和高性能的图像分割效果。这篇文章主要研究了如何在保持低延迟的同时提高交互式图像分割的质量，并实现多种提示的兼容性。*</small>
 * [CVPR 2024 | Open-Vocabulary Video Anomaly Detection](https://blog.csdn.net/P_LarT/article/details/137634977) - Thu, 11 Apr 2024: <small>*这篇文章主要研究了开放词汇视频异常检测（openvocabulary video anomaly detection，OVVAD）的问题，这是一个具有挑战性但实际重要的问题。实验结果表明，该模型在三个公开基准 UBnormal，UCF-Crime，XD-Violence 上优于现有方法，特别是在处理新类别时表现出明显的优势。利用语言图像预训练模型，如 CLIP 作为基础，得益于其强大的零样本泛化能力。，以更好地处理开放词汇视频异常检测问题。并引入了几个专用模块来促进对基线和新异常的检测。*</small>
-* [CVPR 2024 | OVFoodSeg: Elevating Open-Vocabulary Food Image Segmentation via Image-Informed Textual](https://blog.csdn.net/P_LarT/article/details/137634899) - Thu, 11 Apr 2024: <small>*在整合视觉语言模型 CLIP 的基础上，为了处理食物配料视觉表征中大的类内方差，该方法集成了两个创新模块，即图像到文本学习器 FoodLearner 和图像感知的文本编码器 Image-Informed Text Encoder，丰富了文本嵌入与图像特定的信息，从而有效地将知识从已知的食材转移到新的食材。通过在大规模食品相关图像文本对数据集上预训练 FoodLearner，OVFoodSeg 成功地将视觉信息与文本表示紧密地联系起来，从而有效地解决了食材图像分割中的大类内变化问题。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
