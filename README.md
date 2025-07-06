@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [生成 | 朗之万动力学与郎之万采样](https://blog.csdn.net/P_LarT/article/details/149140845) - Sat, 05 Jul 2025: <small>*朗之万动力学是描述微观粒子在势能场中受趋势力、摩擦力和随机力共同作用的随机微分方程。该方程揭示了热平衡系统中微观状态的概率分布由能量决定（玻尔兹曼分布）。在过阻尼极限下，方程简化为只含趋势力和随机力的一阶形式，成为郎之万采样的理论基础。郎之万采样利用梯度信息和随机噪声，通过离散化处理（欧拉-丸山方法）实现高效概率采样，特别适用于高维非标准化分布。该方法将物理系统的热平衡原理转化为机器学习中的采样引擎，在生成建模等领域有重要应用。*</small>
 * [ArXiv 2101 | Rethinking Interactive Image Segmentation Feature Space Annotation](https://blog.csdn.net/P_LarT/article/details/148924990) - Thu, 26 Jun 2025: <small>*摘要 本文提出了一种创新的交互式图像分割方法，通过在特征空间进行批注操作来同时处理多幅图像。与传统在像素空间进行单幅图像标注的模式不同，该方法将用户交互转移到特征空间，显著减少了标注工作量。实验证明，该方法在前景分割数据集上达到state-of-the-art水平，在Cityscapes语义分割数据集上实现91.5%的准确率，标注效率提升74.75倍。该研究为图像分割标注提供了新思路，可与其他方法结合进一步提升标注效率。*</small>
 * [CVPR 2024 | Rethinking Inductive Biases for Surface Normal Estimation](https://blog.csdn.net/P_LarT/article/details/148924871) - Thu, 26 Jun 2025: <small>*这篇论文重新思考了表面法线估计的归纳偏置问题，提出了创新性方法。作者指出现有基于通用密集预测模型的方法存在局限，进而提出三点改进：利用射向每个像素的射线方向作为输入，设计基于射线方向的激活函数，将法线估计重构为相对旋转估计。实验表明，该方法能生成更清晰平滑的预测结果，且在数据量较少时展现更强的泛化能力。该研究为从单RGB图像估计表面法线的任务提供了新思路，对三维重建等计算机视觉应用具有重要意义。*</small>
 * [CVPR 2024 | Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable](https://blog.csdn.net/P_LarT/article/details/148924689) - Thu, 26 Jun 2025: <small>*本文研究了CNN生成网络中的上采样操作对深度伪造检测的影响，提出了基于邻近像素关系(NPR)的新型检测方法。研究发现上采样不仅产生频率域伪影，还会在像素级留下痕迹。NPR通过计算局部窗口内像素差值关系，有效捕捉图像细节中的生成痕迹。实验在包含28种生成模型的开放数据集上进行验证，NPR方法相比现有技术取得了11.6%的性能提升，展现出优秀的泛化能力。该方法通过训练二元分类器，利用NPR特征区分真实与合成图像，为深度伪造检测提供了新思路。*</small>
@@ -30,7 +31,6 @@ $$
 * [Hausdorff 距离](https://blog.csdn.net/P_LarT/article/details/145226053) - Sat, 18 Jan 2025: <small>*本文的内容主要围绕目标定位经典工作LocatingObjectsWithoutBoundingBoxes展开，着重于介绍HausdorffDistance相关的知识。*</small>
 * [Neuromorphic Computing | 基础知识](https://blog.csdn.net/P_LarT/article/details/145159322) - Wed, 15 Jan 2025: <small>*我们可以用充电、放电、重置，这 3 个离散方程来描述任意的离散脉冲神经元。*</small>
 * [ICLR 2024 - Spike-driven Transformer V2 - Meta Spiking Neural Network Architecture Inspiring the Des](https://blog.csdn.net/P_LarT/article/details/141265409) - Fri, 16 Aug 2024: <small>*具体来说，本文将 NeurIPS 2023 发表的第一版工作中的脉冲驱动的 Transformer 扩展为元架构，并探索了结构、脉冲驱动自注意力和跳跃连接对其性能的影响。*</small>
-* [ArXiv 2405 | Rethinking Scanning Strategies with Vision Mamba in SemSeg of Remote Sensing Imagery](https://blog.csdn.net/P_LarT/article/details/139011603) - Fri, 17 May 2024: <small>*这项研究对主流扫描方向及其组合对遥感图像语义分割的影响进行了全面的实验研究。通过在 LoveDA，ISPRS Potsdam 和 ISPRS Vaihingen 数据集上进行的广泛实验，我们证明，**无论其复杂性或所涉及的扫描方向数量如何，都没有单一的扫描策略能胜过其他扫描策略。简单的单个扫描方向被认为足以对高分辨率遥感图像进行语义分割。** 还建议了未来研究的相关方向。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
