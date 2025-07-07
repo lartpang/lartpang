@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ICCV 2025 | Achieving More with Less: Additive Prompt Tuning for Rehearsal-Free CIL](https://blog.csdn.net/P_LarT/article/details/149156683) - Sun, 06 Jul 2025: <small>*本文提出了一种新型的类增量学习方法APT（Additive Prompt Tuning），通过创新的提示调优方式解决了现有基于提示的方法计算开销大的问题。APT采用直接修改CLS token注意力计算的方式，而非传统的提示拼接方法，显著降低了计算复杂度。该方法还提出渐进式提示融合（PPF）策略，通过加权平均新旧提示有效减轻灾难性遗忘。实验表明，APT在多个基准测试中性能最优，如ImageNet-R上平均准确率提升5.2%，同时计算量减少41.5%，可训练参数减少78.2%。该方法不仅适用于类增量学习，还展现*</small>
 * [生成 | 朗之万动力学与郎之万采样](https://blog.csdn.net/P_LarT/article/details/149140845) - Sat, 05 Jul 2025: <small>*朗之万动力学是描述微观粒子在势能场中受趋势力、摩擦力和随机力共同作用的随机微分方程。该方程揭示了热平衡系统中微观状态的概率分布由能量决定（玻尔兹曼分布）。在过阻尼极限下，方程简化为只含趋势力和随机力的一阶形式，成为郎之万采样的理论基础。郎之万采样利用梯度信息和随机噪声，通过离散化处理（欧拉-丸山方法）实现高效概率采样，特别适用于高维非标准化分布。该方法将物理系统的热平衡原理转化为机器学习中的采样引擎，在生成建模等领域有重要应用。*</small>
 * [ArXiv 2101 | Rethinking Interactive Image Segmentation Feature Space Annotation](https://blog.csdn.net/P_LarT/article/details/148924990) - Thu, 26 Jun 2025: <small>*摘要 本文提出了一种创新的交互式图像分割方法，通过在特征空间进行批注操作来同时处理多幅图像。与传统在像素空间进行单幅图像标注的模式不同，该方法将用户交互转移到特征空间，显著减少了标注工作量。实验证明，该方法在前景分割数据集上达到state-of-the-art水平，在Cityscapes语义分割数据集上实现91.5%的准确率，标注效率提升74.75倍。该研究为图像分割标注提供了新思路，可与其他方法结合进一步提升标注效率。*</small>
 * [CVPR 2024 | Rethinking Inductive Biases for Surface Normal Estimation](https://blog.csdn.net/P_LarT/article/details/148924871) - Thu, 26 Jun 2025: <small>*这篇论文重新思考了表面法线估计的归纳偏置问题，提出了创新性方法。作者指出现有基于通用密集预测模型的方法存在局限，进而提出三点改进：利用射向每个像素的射线方向作为输入，设计基于射线方向的激活函数，将法线估计重构为相对旋转估计。实验表明，该方法能生成更清晰平滑的预测结果，且在数据量较少时展现更强的泛化能力。该研究为从单RGB图像估计表面法线的任务提供了新思路，对三维重建等计算机视觉应用具有重要意义。*</small>
@@ -30,7 +31,6 @@ $$
 * [Transformer | 相对位置编码](https://blog.csdn.net/P_LarT/article/details/145248107) - Sun, 19 Jan 2025: <small>*相对位置编码现在已经被很多的视觉Transformer使用，也存在不同的实现形式。由于位置编码的本质就是将可学习变量或者是固定参数与特定的位置索引关联起来，所以实现的过程中会涉及到大量的坐标索引的变换，可读性很差。也因此不同形式的实现也存在着明显的差异。*</small>
 * [Hausdorff 距离](https://blog.csdn.net/P_LarT/article/details/145226053) - Sat, 18 Jan 2025: <small>*本文的内容主要围绕目标定位经典工作LocatingObjectsWithoutBoundingBoxes展开，着重于介绍HausdorffDistance相关的知识。*</small>
 * [Neuromorphic Computing | 基础知识](https://blog.csdn.net/P_LarT/article/details/145159322) - Wed, 15 Jan 2025: <small>*我们可以用充电、放电、重置，这 3 个离散方程来描述任意的离散脉冲神经元。*</small>
-* [ICLR 2024 - Spike-driven Transformer V2 - Meta Spiking Neural Network Architecture Inspiring the Des](https://blog.csdn.net/P_LarT/article/details/141265409) - Fri, 16 Aug 2024: <small>*具体来说，本文将 NeurIPS 2023 发表的第一版工作中的脉冲驱动的 Transformer 扩展为元架构，并探索了结构、脉冲驱动自注意力和跳跃连接对其性能的影响。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
