@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ArXiv 2501 | From Molecules to Mixtures: Learning Representations of Olfactory Mixture Similarity](https://blog.csdn.net/P_LarT/article/details/149208677) - Tue, 08 Jul 2025: <small>*本文提出POMMIX模型，首次将数字化嗅觉研究从单一分子扩展到复杂混合物。该模型采用层次化架构：基于图神经网络学习分子嵌入，通过自注意力机制聚合混合物表示，并设计对称性评分函数预测相似性。实验表明，POMMIX在低数据量场景下显著优于传统方法，并验证了&quot;嗅觉白噪声&quot;现象。研究为蚊虫驱避剂开发、食品香料设计等应用提供了新思路，并展示了领域知识与深度学习结合在化学感知建模中的潜力。*</small>
 * [ArXiv 2507 | SWinMamba: Serpentine Window State Space Model for Vascular Segmentation](https://blog.csdn.net/P_LarT/article/details/149172348) - Mon, 07 Jul 2025: <small>*本文提出了一种新型血管分割模型SWinMamba，通过将蛇形窗口序列融入双向状态空间模型，有效解决了血管几何连续性（VGC）的建模难题。该方法包含三个核心组件：SWToken采用蛇形窗口自适应分割图像，提供灵活感受野；BAM通过双向聚合整合局部特征；SFFU融合空间和频率域特征以构建全面表示。在CHASE-DB1等三个数据集上的实验表明，该方法显著提升了血管分割的完整性和连通性，β0指标平均提升18.17%，同时保持较低计算成本。消融实验验证了各模块的有效性，为临床诊断和手术导航提供了更可靠的血管分割方案。*</small>
 * [CVPR 2025 | DefMamba: Deformable Visual State Space Model](https://blog.csdn.net/P_LarT/article/details/149170100) - Mon, 07 Jul 2025: <small>*提出了一种创新的视觉基础模型DefMamba，通过可变形扫描策略动态调整扫描路径，优先捕捉重要信息。该方法将可变形机制首次引入状态空间模型(SSM)，结合深度卷积和可变形分支，设计了包含偏移网络的可变形状态空间模型(DSSM)。实验表明，DefMamba在ImageNet分类、COCO检测/分割和ADE20K语义分割等任务中性能显著优于现有SSM方法，且计算复杂度较低。该研究为SSM在视觉任务中的应用提供了新思路，但处理不完整物体结构时仍存在局限。*</small>
 * [Arxiv 2502 | DAMamba: Vision State Space Model with Dynamic Adaptive Scan](https://blog.csdn.net/P_LarT/article/details/149167284) - Mon, 07 Jul 2025: <small>*摘要： 本文提出DAMamba，一种基于动态自适应扫描（DAS）的视觉状态空间模型，解决了传统扫描策略在图像语义邻接性破坏和灵活性不足的问题。DAS通过数据驱动方式动态调整扫描顺序和区域，结合可学习的偏移预测网络优化特征提取。DAMamba整合多尺度层次化结构和卷积增强模块，在ImageNet-1K分类任务中达到83.8%准确率，显著超越现有SSM和ViT模型。在COCO目标检测/分割及ADE20K语义分割任务中，DAMamba分别取得最高50.6 mAP和51.9 mIoU，验证了其作为通用视觉骨干网络的*</small>
@@ -30,7 +31,6 @@ $$
 * [CVPR 2024 | Rethinking Inductive Biases for Surface Normal Estimation](https://blog.csdn.net/P_LarT/article/details/148924871) - Thu, 26 Jun 2025: <small>*这篇论文重新思考了表面法线估计的归纳偏置问题，提出了创新性方法。作者指出现有基于通用密集预测模型的方法存在局限，进而提出三点改进：利用射向每个像素的射线方向作为输入，设计基于射线方向的激活函数，将法线估计重构为相对旋转估计。实验表明，该方法能生成更清晰平滑的预测结果，且在数据量较少时展现更强的泛化能力。该研究为从单RGB图像估计表面法线的任务提供了新思路，对三维重建等计算机视觉应用具有重要意义。*</small>
 * [CVPR 2024 | Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable](https://blog.csdn.net/P_LarT/article/details/148924689) - Thu, 26 Jun 2025: <small>*本文研究了CNN生成网络中的上采样操作对深度伪造检测的影响，提出了基于邻近像素关系(NPR)的新型检测方法。研究发现上采样不仅产生频率域伪影，还会在像素级留下痕迹。NPR通过计算局部窗口内像素差值关系，有效捕捉图像细节中的生成痕迹。实验在包含28种生成模型的开放数据集上进行验证，NPR方法相比现有技术取得了11.6%的性能提升，展现出优秀的泛化能力。该方法通过训练二元分类器，利用NPR特征区分真实与合成图像，为深度伪造检测提供了新思路。*</small>
 * [【译】Privacy-Enhancing Technologies in Biomedical Data Science](https://blog.csdn.net/P_LarT/article/details/148924541) - Thu, 26 Jun 2025: <small>*在这篇综述中，我们专注于文献中最广泛研究的技术，包括同态加密（HE）、安全多方计算（MPC）、可信执行环境（TEE）、差分隐私（DP）和联邦学习（FL）。最近的进展极大地增加了这些技术在生物医学领域的适用性，正如我们在这篇综述中所说明的。与将 PETs 描述为解决生物医学数据共享挑战的潜在解决方案的现有综述（5-9）不同，我们专注于提供 PETs 最新进展的易于理解的总结，检查其技术基础和生物医学应用。*</small>
-* [神经网络基础 | 给定条件下推导对应的卷积层参数](https://blog.csdn.net/P_LarT/article/details/145269642) - Mon, 20 Jan 2025: <small>*本文讨论了给定条件下卷积层参数的推导和代码。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
