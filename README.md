@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [TMI 2025 | Serp-Mamba: Advancing High-Resolution Retinal Vessel Segmentation with Selective SSM](https://blog.csdn.net/P_LarT/article/details/149455039) - Fri, 18 Jul 2025: <small>*提出Serp-Mamba模型，用于高分辨率视网膜血管分割。针对UWF-SLO图像中血管形态特殊、类别失衡等挑战，提出两项创新：1) 蛇形交织自适应扫描机制（SIA），通过可变形路径动态贴合血管曲率，解决传统Mamba固定扫描导致的血管断裂问题；2) 模糊驱动双重校准模块（ADDR），利用双阈值划分和交叉注意力重校准模糊像素，缓解高分辨率下的类别失衡问题。*</small>
 * [ArXiv 2507 | RegCL: Continual Adaptation of Segment Anything Model via Model Merging](https://blog.csdn.net/P_LarT/article/details/149428890) - Thu, 17 Jul 2025: <small>*本文提出RegCL方法，通过模型合并实现Segment Anything Model (SAM)在动态多域环境中的持续适配。针对SAM在医学、伪装等特殊领域表现不佳且传统微调导致灾难性遗忘的问题，RegCL创新性地将RegMean模型合并算法引入持续学习场景，仅需保存历史任务的权重内积矩阵，即可在不增加推理参数量的前提下合并新旧知识。实验表明，在五个跨域分割任务上，RegCL的平均准确率达0.751 mIoU，显著优于传统方法，且支持与回放方法结合进一步提升性能。*</small>
 * [TGRS 2025 | HTD-Mamba: Efficient Hyperspectral Target Detection with Pyramid State Space Model](https://blog.csdn.net/P_LarT/article/details/149427412) - Thu, 17 Jul 2025: <small>*本文提出HTD-Mamba，一种基于金字塔状态空间模型的高光谱目标检测方法，解决了先验知识有限和光谱变化两大挑战。该方法通过空间编码光谱增强（SESA）生成对比样本对，结合多分辨率特征提取（MSFE）和对比学习机制，有效区分目标与背景。引入Mamba模型捕获长程光谱依赖，以线性复杂度实现高效检测。实验表明，HTD-Mamba在四个数据集上显著优于现有方法（如San Diego I数据集AUC达0.9998），在计算效率和检测精度上均具优势。*</small>
 * [CVPR 2025 Oral | DiffFNO: Diffusion Fourier Neural Operator](https://blog.csdn.net/P_LarT/article/details/149415784) - Thu, 17 Jul 2025: <small>*该研究提出DiffFNO框架，通过融合扩散模型与改进的傅里叶神经算子（FNO）解决图像超分辨率问题。实验表明，DiffFNO在多个基准测试中PSNR指标提升2-4dB，且对训练未见尺度具有强泛化能力。*</small>
@@ -30,7 +31,6 @@ $$
 * [NeurIPS 2024 | Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox](https://blog.csdn.net/P_LarT/article/details/149326984) - Mon, 14 Jul 2025: <small>*提出OOD检测新评估框架，解决传统方法因语义标签噪声导致的&quot;堆垛悖论&quot;问题。研究构建了IS-OOD基准数据集，通过CLIP特征分解技术(LAID)量化样本与训练数据的语义和协变量偏移程度，取代传统的二元划分。实验揭示了不同OOD方法对两类偏移的敏感性差异，为未来研究提供了更细粒度的评估标准。*</small>
 * [NeurIPS 2024 | Can Transformers Smell Like Humans?](https://blog.csdn.net/P_LarT/article/details/149295789) - Sat, 12 Jul 2025: <small>*本文探讨了Transformer模型在无嗅觉标签条件下，能否通过化学结构预训练对齐人类嗅觉感知。研究发现，MoLFormer模型提取的气味剂表征能够有效预测专家标注的嗅觉描述符、人类连续评分及气味剂相似度，其性能接近监督模型且优于传统物理化学特征方法。分析表明，模型深层表征更偏向高层感知特征而非底层化学属性。研究证实了自监督Transformer在嗅觉感知预测中的潜力，为化学与神经科学研究提供了新工具，但受限于数据质量和个体差异等因素，仍有改进空间。*</small>
 * [ArXiv 2506 | WaRA: Wavelet Low Rank Adaptation](https://blog.csdn.net/P_LarT/article/details/149216094) - Wed, 09 Jul 2025: <small>*本文提出WaRA(Wavelet Low Rank Adaptation)，一种新型参数高效微调(PEFT)方法，通过将小波变换引入低秩适应过程，有效解决了现有方法在捕捉多尺度结构数据时的不足。WaRA的核心创新点在于： 在小波域进行低秩分解，保留关键结构信息的同时大幅减少参数量 引入跨子带参数共享策略，进一步提升参数效率 采用Haar正交基实现高效的小波变换。实验证明，WaRA在图像生成、分类等视觉任务中显著优于传统LoRA方法，在语言任务中也展现出良好性能。*</small>
-* [ArXiv 2501 | From Molecules to Mixtures: Learning Representations of Olfactory Mixture Similarity](https://blog.csdn.net/P_LarT/article/details/149208677) - Tue, 08 Jul 2025: <small>*本文提出POMMIX模型，首次将数字化嗅觉研究从单一分子扩展到复杂混合物。该模型采用层次化架构：基于图神经网络学习分子嵌入，通过自注意力机制聚合混合物表示，并设计对称性评分函数预测相似性。实验表明，POMMIX在低数据量场景下显著优于传统方法，并验证了&quot;嗅觉白噪声&quot;现象。研究为蚊虫驱避剂开发、食品香料设计等应用提供了新思路，并展示了领域知识与深度学习结合在化学感知建模中的潜力。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
