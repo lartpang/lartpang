@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [ICCV 2025 | CWNet: Causal Wavelet Network for Low-Light Image Enhancement](https://blog.csdn.net/P_LarT/article/details/149617840) - Thu, 24 Jul 2025: <small>*本文提出一种基于因果推理与小波变换的低光照图像增强方法。CWNet通过因果干预分析揭示潜在因果关系，采用全局度量学习分离因果/非因果因子，并引入实例级CLIP语义损失确保局部一致性。同时设计基于小波变换的主干网络优化频域信息恢复。实验表明，CWNet在多个数据集上优于现有方法，有效解决了光照不均与语义保持的挑战。该方法为低光增强提供了新的因果推理视角，显著提升了视觉质量与语义准确性。*</small>
 * [CVPR 2025 | Incomplete Multi-modal Brain Tumor Segmentation via Learnable Sorting State Space Model](https://blog.csdn.net/P_LarT/article/details/149468057) - Sat, 19 Jul 2025: <small>*针对多模态脑肿瘤分割中MRI模态缺失问题，提出了一种基于可学习排序状态空间模型(LS3M)的新方法。该框架通过可微分的动态重排机制(SortP)保留3D MRI的空间结构和语义关联，结合串联状态空间模型(S3M)高效建模长程依赖关系，并采用全局输入策略增强上下文感知。实验表明，在BraTS2018和BraTS2020数据集上，LS3M在模态缺失情况下显著优于现有方法。*</small>
 * [ICML 2025 | FourierMamba: Fourier Learning Integration with State Space Models for Image Deraining](https://blog.csdn.net/P_LarT/article/details/149464229) - Sat, 19 Jul 2025: <small>*提出FourierMamba模型，将State Space Models与Fourier学习相结合用于图像去雨。针对现有频域方法忽视频率间依赖关系的问题，模型采用多尺度U-Net架构，核心包含Fourier Spatial Interaction SSM和Fourier Channel Evolution SSM两个模块。前者在空间维度通过改进的zigzag扫描策略（bilateral和progressive两种变体）有序处理频谱信息；后者在通道维度建模频率相关性。*</small>
 * [TMI 2025 | Serp-Mamba: Advancing High-Resolution Retinal Vessel Segmentation with Selective SSM](https://blog.csdn.net/P_LarT/article/details/149455039) - Fri, 18 Jul 2025: <small>*提出Serp-Mamba模型，用于高分辨率视网膜血管分割。针对UWF-SLO图像中血管形态特殊、类别失衡等挑战，提出两项创新：1) 蛇形交织自适应扫描机制（SIA），通过可变形路径动态贴合血管曲率，解决传统Mamba固定扫描导致的血管断裂问题；2) 模糊驱动双重校准模块（ADDR），利用双阈值划分和交叉注意力重校准模糊像素，缓解高分辨率下的类别失衡问题。*</small>
@@ -30,7 +31,6 @@ $$
 * [小波变换 | Haar 小波变换](https://blog.csdn.net/P_LarT/article/details/149338853) - Mon, 14 Jul 2025: <small>*本文介绍了Haar小波变换的基本原理及其离散实现方法。*</small>
 * [小波变换 | 离散小波变换](https://blog.csdn.net/P_LarT/article/details/149337573) - Mon, 14 Jul 2025: <small>*介绍了离散小波变换（DWT）的核心原理与实现方法。重点阐述了从连续小波变换到DWT的离散化过程，包括尺度参数和平移参数的二进网格采样（a_j=2^j, b_jk=k·2^j），以及时间参数的离散化处理。通过多分辨率分析（MRA）理论，系统性地构建了正交或双正交的小波基函数，引入尺度函数和小波函数两套基函数体系。*</small>
 * [小波变换 | 连续小波变换](https://blog.csdn.net/P_LarT/article/details/149337489) - Mon, 14 Jul 2025: <small>*小波变换是一种时频分析工具，通过母小波函数生成子小波函数来同时分析信号的时间和频率特征。连续小波变换通过不同尺度和平移参数计算小波系数，反映信号的局部时频特性。小波变换可通过卷积实现，并存在逆变换条件。*</small>
-* [NeurIPS 2024 | Rethinking the Evaluation of Out-of-Distribution Detection: A Sorites Paradox](https://blog.csdn.net/P_LarT/article/details/149326984) - Mon, 14 Jul 2025: <small>*提出OOD检测新评估框架，解决传统方法因语义标签噪声导致的&quot;堆垛悖论&quot;问题。研究构建了IS-OOD基准数据集，通过CLIP特征分解技术(LAID)量化样本与训练数据的语义和协变量偏移程度，取代传统的二元划分。实验揭示了不同OOD方法对两类偏移的敏感性差异，为未来研究提供了更细粒度的评估标准。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
