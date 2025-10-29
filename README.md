@@ -54,3 +54,10 @@ View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
 | [**tta.pytorch**](https://github.com/lartpang/tta.pytorch)                                   | ![stars](https://img.shields.io/github/stars/lartpang/tta.pytorch)                  | Test-Time Augmentation library for Pytorch.                                                                                                                      |
 | [**YuQueTools**](https://github.com/lartpang/YuQueTools)                                     | ![stars](https://img.shields.io/github/stars/lartpang/YuQueTools)                   | A simple tool to download your own articles from yuque.                                                                                                          |
 | [**ManageMyAttachments**](https://github.com/lartpang/ManageMyAttachments)                   | ![stars](https://img.shields.io/github/stars/lartpang/ManageMyAttachments)          | Manage the attachments of your own obsidian vault.                                                                                                               |
+
+## 💾 Some Datasets
+
+| Name                                                                                                   | Description                                     |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| [**lartpang/OVCamo**](https://github.com/lartpang/OVCamo)                                              | Open-Vocabulary Camouflaged Object Segmentation |
+| [**yooweey/AugmentedIRSTD1kTestset**](https://huggingface.co/datasets/yooweey/AugmentedIRSTD1kTestset) | Augmented Testset of the IRSTD-1k dataset       |
