@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [神经网络 | 从线性结构到可学习非线性](https://blog.csdn.net/P_LarT/article/details/155709559) - Mon, 08 Dec 2025: <small>*CNN、Transformer、ONN（Operational Neural Network）和KAN*</small>
 * [储层计算 (Reservoir Computing) 概述](https://blog.csdn.net/P_LarT/article/details/155644579) - Sat, 06 Dec 2025: <small>*储层计算（RC）通过固定非线性储层与可训练线性读出的解耦设计，克服了传统递归神经网络训练中的梯度问题。其核心在于利用高维动力系统将输入信号映射到线性可分空间，仅需训练输出层权重。数学证明表明，当储层权重矩阵的谱半径满足特定条件时，系统具备回声状态属性和衰退记忆特性，确保状态收敛并遗忘久远历史。RC架构从随机连接演进到结构化拓扑（如简单环、带跳跃环），并发展出深度堆叠等变体，显著提升了计算效率与性能。这一范式为时间序列建模提供了高效解决方案。*</small>
 * [告别乱码：OpenCV 中文路径（Unicode）读写的解决方案](https://blog.csdn.net/P_LarT/article/details/154360161) - Mon, 03 Nov 2025: <small>*本文针对OpenCV中文路径读取失败问题，提出了一种基于C++17标准库的跨平台解决方案。核心思路是：使用std::filesystem处理中文路径，利用std::fstream进行二进制文件读写，最后通过OpenCV的imdecode和imencode函数实现图像编解码。*</small>
 * [生成模型 | DDPM -＞ Imrpoved DDPM -＞ DDIM](https://blog.csdn.net/P_LarT/article/details/150712115) - Sun, 24 Aug 2025: <small>*本文介绍了三种扩散模型变体：DDPM、Improved DDPM和DDIM。DDPM通过迭代去噪过程生成样本，但采样速度较慢。Improved DDPM改进了噪声调度策略，采用余弦形式的调整，并引入混合损失函数以优化训练。DDIM则通过非马尔可夫链设计，在保持相同训练目标的同时，显著加快采样速度。这三种方法在扩散模型的噪声处理、损失函数设计和采样效率上各有创新，推动了扩散模型在生成任务中的性能提升。*</small>
@@ -30,7 +31,6 @@ $$
 * [TCSVT 2023 | StructToken - Rethinking Semantic Segmentation with Structural Prior](https://blog.csdn.net/P_LarT/article/details/150464275) - Sun, 17 Aug 2025: <small>*一种新的语义分割范式，通过结构化token直接构建语义掩码并逐步细化，而非传统逐像素分类方法。作者设计了三种交互结构（CSE、SSE和静态卷积）来捕获特征图中的结构信息，并通过堆叠处理单元实现mask细化。*</small>
 * [torchvision 中 deform_conv2d 操作的经验性解析](https://blog.csdn.net/P_LarT/article/details/150463945) - Sun, 17 Aug 2025: <small>*详细解析了torchvision中可变形卷积(deform_conv2d)的实现原理和使用方法。*</small>
 * [一次由默认参数引起的思考](https://blog.csdn.net/P_LarT/article/details/150463724) - Sun, 17 Aug 2025: <small>*本文探讨了依赖版本更新导致代码输出不一致的问题。作者在迁移代码时发现，由于Pillow图像处理库从6.2.1升级到7.2.0，其默认插值策略改变导致resize()函数输出结果不同。文章分析了默认参数的利弊，指出其虽提升开发效率但存在潜在风险。作者建议采取两种应对策略：一是固定依赖版本确保稳定性；二是对关键参数进行显式配置。最后强调开发应以程序稳定运行为首要目标，盲目追求新版本可能得不偿失，并提醒开发者需谨慎对待工具依赖的版本管理。*</small>
-* [TIP 2004 | Image quality assessment: From error visibility to structural similarity](https://blog.csdn.net/P_LarT/article/details/150463462) - Sun, 17 Aug 2025: <small>*本文介绍了全参考图像质量评估方法SSIM（结构相似性指数）的设计背景与实现。传统评估方法如MSE和PSNR虽计算简单，但与人类感知质量匹配度低。SSIM基于结构信息退化假设，通过亮度、对比度和结构三个分量评估图像质量。论文详细阐述了SSIM的算法框架，并对比了不同实现的高斯滤波处理方式差异。作者基于PyTorch实现了可微分的MSSIM代码，支持用户自定义padding和核形式参数，确保与现有实现兼容。该指标在图像处理系统优化、算法评估等领域具有重要应用价值。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
