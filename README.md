@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- writing starts -->
+* [数据增强在小型卷积神经网络中的有效性探究](https://blog.csdn.net/P_LarT/article/details/155916849) - Sun, 14 Dec 2025: <small>*深度学习模型性能提升中，数据增强并非总是有效。研究发现增强效果取决于模型架构、参数量和卷积类型。*</small>
 * [神经网络 | 从线性结构到可学习非线性](https://blog.csdn.net/P_LarT/article/details/155709559) - Mon, 08 Dec 2025: <small>*CNN、Transformer、ONN（Operational Neural Network）和KAN*</small>
 * [储层计算 (Reservoir Computing) 概述](https://blog.csdn.net/P_LarT/article/details/155644579) - Sat, 06 Dec 2025: <small>*储层计算（RC）通过固定非线性储层与可训练线性读出的解耦设计，克服了传统递归神经网络训练中的梯度问题。其核心在于利用高维动力系统将输入信号映射到线性可分空间，仅需训练输出层权重。数学证明表明，当储层权重矩阵的谱半径满足特定条件时，系统具备回声状态属性和衰退记忆特性，确保状态收敛并遗忘久远历史。RC架构从随机连接演进到结构化拓扑（如简单环、带跳跃环），并发展出深度堆叠等变体，显著提升了计算效率与性能。这一范式为时间序列建模提供了高效解决方案。*</small>
 * [告别乱码：OpenCV 中文路径（Unicode）读写的解决方案](https://blog.csdn.net/P_LarT/article/details/154360161) - Mon, 03 Nov 2025: <small>*本文针对OpenCV中文路径读取失败问题，提出了一种基于C++17标准库的跨平台解决方案。核心思路是：使用std::filesystem处理中文路径，利用std::fstream进行二进制文件读写，最后通过OpenCV的imdecode和imencode函数实现图像编解码。*</small>
@@ -30,7 +31,6 @@ $$
 * [ICCV 2025 | Reverse Convolution and Its Applications to Image Restoration](https://blog.csdn.net/P_LarT/article/details/150469410) - Sun, 17 Aug 2025: <small>*本文提出了一种新颖的深度可分离反向卷积算子（reverse convolution），通过建立并求解正则化最小二乘优化问题，实现了对depthwise卷积的有效反转。该算子采用FFT推导闭式解，并详细研究了核初始化、padding策略等实现细节。基于此构建的reverse卷积块结合了层归一化、1×1卷积和GELU激活，形成类Transformer结构，可直接替换现有网络中的常规卷积层，构建ConverseNet。*</small>
 * [TCSVT 2023 | StructToken - Rethinking Semantic Segmentation with Structural Prior](https://blog.csdn.net/P_LarT/article/details/150464275) - Sun, 17 Aug 2025: <small>*一种新的语义分割范式，通过结构化token直接构建语义掩码并逐步细化，而非传统逐像素分类方法。作者设计了三种交互结构（CSE、SSE和静态卷积）来捕获特征图中的结构信息，并通过堆叠处理单元实现mask细化。*</small>
 * [torchvision 中 deform_conv2d 操作的经验性解析](https://blog.csdn.net/P_LarT/article/details/150463945) - Sun, 17 Aug 2025: <small>*详细解析了torchvision中可变形卷积(deform_conv2d)的实现原理和使用方法。*</small>
-* [一次由默认参数引起的思考](https://blog.csdn.net/P_LarT/article/details/150463724) - Sun, 17 Aug 2025: <small>*本文探讨了依赖版本更新导致代码输出不一致的问题。作者在迁移代码时发现，由于Pillow图像处理库从6.2.1升级到7.2.0，其默认插值策略改变导致resize()函数输出结果不同。文章分析了默认参数的利弊，指出其虽提升开发效率但存在潜在风险。作者建议采取两种应对策略：一是固定依赖版本确保稳定性；二是对关键参数进行显式配置。最后强调开发应以程序稳定运行为首要目标，盲目追求新版本可能得不偿失，并提醒开发者需谨慎对待工具依赖的版本管理。*</small>
 <!-- writing ends -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
