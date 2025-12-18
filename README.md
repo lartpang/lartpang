@@ -20,7 +20,8 @@ $$
 
 ## 📝 Recent Writing
 
-writing
+<!-- BEGIN_RECENT_WRITING -->
+<!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
 
