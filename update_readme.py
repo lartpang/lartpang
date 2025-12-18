@@ -1,130 +1,124 @@
+import html
 import pathlib
 import re
 import time
-import html
 
 import feedparser
 
 
 def clean_summary(text):
     """
-    清洗摘要文本：去除 HTML 标签、转义字符和换行符
+    清洗 RSS 摘要：去除 HTML 标签、修复转义字符、去除换行
     """
     if not text:
         return ""
     # 1. 去除 HTML 标签
-    text = re.sub(r'<[^>]+>', '', text)
-    # 2. 将 HTML 实体转回普通字符 (如 &gt; -> >)
+    text = re.sub(r"<[^>]+>", "", text)
+    # 2. 修复实体字符 (如 &gt; -> >)
     text = html.unescape(text)
-    # 3. 去除换行符，避免破坏 Markdown 列表结构
-    text = text.replace('\n', ' ').replace('\r', '')
-    # 4. 移除多余的空格
-    text = re.sub(r'\s+', ' ', text).strip()
+    # 3. 去除换行符，防止破坏 Markdown 表格或列表结构
+    text = text.replace("\n", " ").replace("\r", "")
+    # 4. 移除多余空格
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-def replace_writing(content, marker, chunk, inline=False):
+def fetch_rss_data(num_entries=20):
     """
-    根据标记替换 README 中的内容
-    """
-    # 使用 re.DOTALL 让 . 匹配换行符
-    pattern = re.compile(
-        r"<!\-\- {} starts \-\->.*<!\-\- {} ends \-\->".format(marker, marker),
-        re.DOTALL,
-    )
-    
-    # 检查标记是否存在
-    if not pattern.search(content):
-        print(f"Warning: Marker '' not found in README. No changes made.")
-        return content
-
-    if not inline:
-        chunk = "\n{}\n".format(chunk)
-    
-    replacement = "{}".format(marker, chunk, marker)
-    return pattern.sub(replacement, content)
-
-
-def fetch_writing():
-    """
-    获取 RSS 并解析为结构化数据
+    获取 RSS 数据并返回前 5 条
     """
     rss_url = "https://rss.csdn.net/P_LarT/rss/map"
-    
+    print(f"DEBUG: Fetching RSS from {rss_url}...")
+
     try:
-        # feedparser 内部处理了很多网络异常，但最好还是包裹一下
-        rss_info = feedparser.parse(rss_url)
+        # feedparser 自带容错，但为了保险起见加 try-except
+        feed = feedparser.parse(rss_url)
     except Exception as e:
-        print(f"Error fetching RSS: {e}")
+        print(f"ERROR: Failed to fetch RSS: {e}")
         return []
 
-    # 检查是否成功获取到了 entries
-    if not rss_info.get("entries"):
-        print("No entries found in RSS feed.")
+    if not feed.entries:
+        print("WARN: RSS feed is empty.")
         return []
 
-    entries = rss_info["entries"]
-    recent_entries = entries[:10]
-    
-    processed_entries = []
+    return feed.entries[:num_entries]
 
-    for entry in recent_entries:
-        # --- 修复核心 Bug: 稳健的日期处理 ---
-        # 优先使用 feedparser 解析好的 struct_time
+
+def generate_content(entries):
+    """
+    将 RSS 条目转换为 Markdown 列表字符串
+    """
+    lines = []
+    for entry in entries:
+        # 处理日期：优先使用解析后的结构化时间
         if hasattr(entry, "published_parsed") and entry.published_parsed:
             date_str = time.strftime("%Y-%m-%d", entry.published_parsed)
         else:
-            # Fallback: 如果解析失败，尝试直接获取字符串，或者给一个默认值
-            date_str = entry.get("published", "")[:10] 
+            date_str = entry.get("published", "")[:10]
 
-        # --- 修复排版 Bug: 清洗 Summary ---
-        summary_text = clean_summary(entry.get("summary", ""))
+        # 处理摘要
+        summary = clean_summary(entry.get("summary", ""))
+        if len(summary) > 80:  # 限制摘要长度
+            summary = summary[:80] + "..."
 
-        processed_entries.append({
-            "title": entry.get("title", "No Title").strip(),
-            "url": entry.get("link", "#"),
-            "published": date_str,
-            "summary": summary_text,
-        })
+        # 格式化行
+        line = f"* [{entry.title.strip()}]({entry.link}) - {date_str}: <small>*{summary}*</small>"
+        lines.append(line)
 
-    return processed_entries
+    # 返回拼接好的文本，首尾不加换行符，由替换逻辑控制
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":
+    # 1. 定位 README 文件
     root = pathlib.Path(__file__).parent.resolve()
     readme_path = root / "README.md"
-    
-    # 检查 README 是否存在
-    if not readme_path.exists():
-        print("Error: README.md not found.")
+    readme_content = readme_path.read_text(encoding="utf-8")
+
+    # 2. 定义特定的标记
+    start_marker = "<!-- BEGIN_RECENT_WRITING -->"
+    end_marker = "<!-- END_RECENT_WRITING -->"
+
+    # 3. 构建正则表达式
+    pattern = re.compile(
+        r"({})[\s\S]*?({})".format(re.escape(start_marker), re.escape(end_marker))
+    )
+
+    # 4. 检查是否能在文档中找到这两个标记
+    if not pattern.search(readme_content):
+        print("FATAL: Markers not found in README.md.")
+        print(f"Please ensure '{start_marker}' and '{end_marker}' are present.")
         exit(1)
 
-    readme = readme_path.open(encoding="utf-8", mode="r").read()
-
-    entries = fetch_writing()
-    
+    # 5. 获取数据
+    entries = fetch_rss_data()
     if not entries:
-        print("No blog entries fetched. Exiting.")
+        print("INFO: No entries fetched. Exiting without update.")
         exit(0)
 
-    # 生成新的 Markdown 内容
-    entries_md = "\n".join(
-        [
-            "* [{title}]({url}) - {published}: <small>*{summary}*</small>".format(
-                **entry
-            )
-            for entry in entries
-        ]
-    )
-    
-    print("Fetched info sample:", entries[0]['title'])
+    # 6. 生成新内容
+    new_list_content = generate_content(entries)
 
-    # 执行替换
-    new_readme = replace_writing(readme, "writing", entries_md)
+    # 构造替换后的中间块：前后加换行符保证美观
+    # 最终结构: 标记 -> 换行 -> 内容 -> 换行 -> 标记
+    replacement_content = f"\n{new_list_content}\n"
 
-    # 仅当内容有变化时才写入文件
-    if new_readme != readme:
-        readme_path.open(encoding="utf-8", mode="w").write(new_readme)
-        print("README.md updated successfully.")
+    # 7. 执行替换
+    # \1 保留开始标记, \2 替换为新内容, \3 保留结束标记
+    # 注意：这里的正则只有两个捕获组 (Start) 和 (End)，中间的内容不需要捕获组，直接用 formatted string 替换即可
+    # 修正逻辑：使用 sub 直接重组
+
+    def replacer(match):
+        # match.group(1) 是开始标记
+        # match.group(2) 是结束标记
+        # 我们把新内容插在中间
+        return f"{match.group(1)}{replacement_content}{match.group(2)}"
+
+    new_readme = pattern.sub(replacer, readme_content)
+
+    # 8. 写入文件（仅当有变化时）
+    if new_readme != readme_content:
+        readme_path.write_text(new_readme, encoding="utf-8")
+        print("SUCCESS: README.md updated.")
     else:
-        print("No changes detected. README.md is up to date.")
+        print("INFO: No changes detected.")
