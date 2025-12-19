@@ -23,7 +23,7 @@ def clean_summary(text):
     return text
 
 
-def fetch_rss_data(num_entries=20):
+def fetch_rss_data(num_entries=10):
     """
     获取 RSS 数据并返回前 5 条
     """
