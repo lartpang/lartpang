@@ -31,16 +31,6 @@ $$
 * [生成模型 | 扩散模型损失函数公式推导](https://blog.csdn.net/P_LarT/article/details/150646412) - 2025-08-23: <small>*本文推导了扩散模型的损失函数，通过引入前向分布简化计算，最终将损失分解为三部分：$L_T$（可忽略的常量）、$L_{t-1}$（KL散度项）和$L_0$（重构误...*</small>
 * [生成模型 | 扩散模型公式推导](https://blog.csdn.net/P_LarT/article/details/150637291) - 2025-08-23: <small>*本文介绍了扩散模型的前向加噪和反向去噪过程。前向过程通过马尔科夫链逐步将数据$x_0$转化为高斯噪声$x_T$，其中噪声强度由预设参数$\beta_t$控制。反...*</small>
 * [ICCV 2025 | Reverse Convolution and Its Applications to Image Restoration](https://blog.csdn.net/P_LarT/article/details/150469410) - 2025-08-17: <small>*本文提出了一种新颖的深度可分离反向卷积算子（reverse convolution），通过建立并求解正则化最小二乘优化问题，实现了对depthwise卷积的有效...*</small>
-* [TCSVT 2023 | StructToken - Rethinking Semantic Segmentation with Structural Prior](https://blog.csdn.net/P_LarT/article/details/150464275) - 2025-08-17: <small>*一种新的语义分割范式，通过结构化token直接构建语义掩码并逐步细化，而非传统逐像素分类方法。作者设计了三种交互结构（CSE、SSE和静态卷积）来捕获特征图中的...*</small>
-* [torchvision 中 deform_conv2d 操作的经验性解析](https://blog.csdn.net/P_LarT/article/details/150463945) - 2025-08-17: <small>*详细解析了torchvision中可变形卷积(deform_conv2d)的实现原理和使用方法。*</small>
-* [一次由默认参数引起的思考](https://blog.csdn.net/P_LarT/article/details/150463724) - 2025-08-17: <small>*本文探讨了依赖版本更新导致代码输出不一致的问题。作者在迁移代码时发现，由于Pillow图像处理库从6.2.1升级到7.2.0，其默认插值策略改变导致resize...*</small>
-* [TIP 2004 | Image quality assessment: From error visibility to structural similarity](https://blog.csdn.net/P_LarT/article/details/150463462) - 2025-08-17: <small>*本文介绍了全参考图像质量评估方法SSIM（结构相似性指数）的设计背景与实现。传统评估方法如MSE和PSNR虽计算简单，但与人类感知质量匹配度低。SSIM基于结构...*</small>
-* [ACMMM 2024 | Wave-Mamba: Wavelet State Space Model for Ultra-High-Definition Low-Light Image Enhance](https://blog.csdn.net/P_LarT/article/details/149830920) - 2025-08-01: <small>*针对超高清低照度图像增强中的计算复杂度和信息丢失问题，提出Wave-Mamba模型。该模型创新性地结合离散小波变换（DWT）与状态空间模型（SSM），通过小波域...*</small>
-* [ICCV 2025 | WaveMamba: Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection](https://blog.csdn.net/P_LarT/article/details/149816528) - 2025-07-31: <small>*本文提出WaveMamba，一种基于小波变换和Mamba的RGB-红外跨模态目标检测方法。研究发现RGB和红外图像在频域具有互补特性：红外图像低频信息丰富，RG...*</small>
-* [ICCV 2025 | CWNet: Causal Wavelet Network for Low-Light Image Enhancement](https://blog.csdn.net/P_LarT/article/details/149617840) - 2025-07-24: <small>*本文提出一种基于因果推理与小波变换的低光照图像增强方法。CWNet通过因果干预分析揭示潜在因果关系，采用全局度量学习分离因果/非因果因子，并引入实例级CLIP语...*</small>
-* [CVPR 2025 | Incomplete Multi-modal Brain Tumor Segmentation via Learnable Sorting State Space Model](https://blog.csdn.net/P_LarT/article/details/149468057) - 2025-07-19: <small>*针对多模态脑肿瘤分割中MRI模态缺失问题，提出了一种基于可学习排序状态空间模型(LS3M)的新方法。该框架通过可微分的动态重排机制(SortP)保留3D MRI...*</small>
-* [ICML 2025 | FourierMamba: Fourier Learning Integration with State Space Models for Image Deraining](https://blog.csdn.net/P_LarT/article/details/149464229) - 2025-07-19: <small>*提出FourierMamba模型，将State Space Models与Fourier学习相结合用于图像去雨。针对现有频域方法忽视频率间依赖关系的问题，模型采...*</small>
-* [TMI 2025 | Serp-Mamba: Advancing High-Resolution Retinal Vessel Segmentation with Selective SSM](https://blog.csdn.net/P_LarT/article/details/149455039) - 2025-07-18: <small>*提出Serp-Mamba模型，用于高分辨率视网膜血管分割。针对UWF-SLO图像中血管形态特殊、类别失衡等挑战，提出两项创新：1) 蛇形交织自适应扫描机制（SI...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
