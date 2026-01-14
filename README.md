@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
 * [Welford 算法 | 优雅地计算海量数据的均值与方差](https://blog.csdn.net/P_LarT/article/details/156197657) - 2025-12-23: <small>*本文介绍了Welford在线算法，这是一种高效计算大数据集统计量的方法。针对内存不足时处理大规模数据的问题，文章对比了传统方差计算方法的缺陷（内存占用大、数值稳...*</small>
 * [带噪学习 | Ambient Diffusion (NeurIPS 2023)下篇](https://blog.csdn.net/P_LarT/article/details/156022824) - 2025-12-17: <small>*本文介绍了Ambient Diffusion模型的采样过程，重点阐述了基于Tweedie公式的分数函数推导。通过分析前向过程的线性高斯特性，证明了分数函数$\n...*</small>
 * [带噪学习 | Ambient Diffusion (NeurIPS 2023) 上篇](https://blog.csdn.net/P_LarT/article/details/155989880) - 2025-12-17: <small>*Ambient Diffusion能够在仅使用高度损坏样本（如缺失90%像素的图像）的情况下学习干净数据的分布。核心创新是在扩散过程中引入额外测量失真，迫使模型...*</small>
@@ -30,7 +31,6 @@ $$
 * [告别乱码：OpenCV 中文路径（Unicode）读写的解决方案](https://blog.csdn.net/P_LarT/article/details/154360161) - 2025-11-03: <small>*本文针对OpenCV中文路径读取失败问题，提出了一种基于C++17标准库的跨平台解决方案。核心思路是：使用std::filesystem处理中文路径，利用std...*</small>
 * [生成模型 | DDPM -＞ Imrpoved DDPM -＞ DDIM](https://blog.csdn.net/P_LarT/article/details/150712115) - 2025-08-24: <small>*本文介绍了三种扩散模型变体：DDPM、Improved DDPM和DDIM。DDPM通过迭代去噪过程生成样本，但采样速度较慢。Improved DDPM改进了噪...*</small>
 * [生成模型 | 扩散模型损失函数公式推导](https://blog.csdn.net/P_LarT/article/details/150646412) - 2025-08-23: <small>*本文推导了扩散模型的损失函数，通过引入前向分布简化计算，最终将损失分解为三部分：$L_T$（可忽略的常量）、$L_{t-1}$（KL散度项）和$L_0$（重构误...*</small>
-* [生成模型 | 扩散模型公式推导](https://blog.csdn.net/P_LarT/article/details/150637291) - 2025-08-23: <small>*本文介绍了扩散模型的前向加噪和反向去噪过程。前向过程通过马尔科夫链逐步将数据$x_0$转化为高斯噪声$x_T$，其中噪声强度由预设参数$\beta_t$控制。反...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
