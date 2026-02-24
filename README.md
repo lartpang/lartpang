@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [从独立性、相关性到复杂动力系统](https://blog.csdn.net/P_LarT/article/details/158318907) - 2026-02-23: <small>*本文系统探讨了数据相关性分析的四个认知层级：线性相关（皮尔逊系数）捕捉严格比例关系，广义相关（斯皮尔曼系数）识别单调趋势，独立性检验（距离相关系数）判断变量是否...*</small>
 * [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
 * [Welford 算法 | 优雅地计算海量数据的均值与方差](https://blog.csdn.net/P_LarT/article/details/156197657) - 2025-12-23: <small>*本文介绍了Welford在线算法，这是一种高效计算大数据集统计量的方法。针对内存不足时处理大规模数据的问题，文章对比了传统方差计算方法的缺陷（内存占用大、数值稳...*</small>
 * [带噪学习 | Ambient Diffusion (NeurIPS 2023)下篇](https://blog.csdn.net/P_LarT/article/details/156022824) - 2025-12-17: <small>*本文介绍了Ambient Diffusion模型的采样过程，重点阐述了基于Tweedie公式的分数函数推导。通过分析前向过程的线性高斯特性，证明了分数函数$\n...*</small>
@@ -30,7 +31,6 @@ $$
 * [储层计算 (Reservoir Computing) 概述](https://blog.csdn.net/P_LarT/article/details/155644579) - 2025-12-06: <small>*储层计算（RC）通过固定非线性储层与可训练线性读出的解耦设计，克服了传统递归神经网络训练中的梯度问题。其核心在于利用高维动力系统将输入信号映射到线性可分空间，仅...*</small>
 * [告别乱码：OpenCV 中文路径（Unicode）读写的解决方案](https://blog.csdn.net/P_LarT/article/details/154360161) - 2025-11-03: <small>*本文针对OpenCV中文路径读取失败问题，提出了一种基于C++17标准库的跨平台解决方案。核心思路是：使用std::filesystem处理中文路径，利用std...*</small>
 * [生成模型 | DDPM -＞ Imrpoved DDPM -＞ DDIM](https://blog.csdn.net/P_LarT/article/details/150712115) - 2025-08-24: <small>*本文介绍了三种扩散模型变体：DDPM、Improved DDPM和DDIM。DDPM通过迭代去噪过程生成样本，但采样速度较慢。Improved DDPM改进了噪...*</small>
-* [生成模型 | 扩散模型损失函数公式推导](https://blog.csdn.net/P_LarT/article/details/150646412) - 2025-08-23: <small>*本文推导了扩散模型的损失函数，通过引入前向分布简化计算，最终将损失分解为三部分：$L_T$（可忽略的常量）、$L_{t-1}$（KL散度项）和$L_0$（重构误...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
