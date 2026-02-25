@@ -21,6 +21,8 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [位翻转排列 (Bit-Reversal Permutation) 解析](https://blog.csdn.net/P_LarT/article/details/158355459) - 2026-02-24: <small>*位翻转排列是一种将数据索引的二进制位完全倒置的重排操作，本质上是分治算法在底层数据划分上的投影。该技术广泛应用于快速傅里叶变换（FFT）等算法中，通过内存重排实...*</small>
+* [Monarch矩阵：从设计直觉到数学推导与实际应用](https://blog.csdn.net/P_LarT/article/details/158352258) - 2026-02-24: <small>*Monarch矩阵是一种高效的矩阵参数化方法，旨在解决大模型中的计算和内存瓶颈。它结合块对角矩阵与排列操作，在保持硬件友好性的同时实现全局特征融合。Monarc...*</small>
 * [从独立性、相关性到复杂动力系统](https://blog.csdn.net/P_LarT/article/details/158318907) - 2026-02-23: <small>*本文系统探讨了数据相关性分析的四个认知层级：线性相关（皮尔逊系数）捕捉严格比例关系，广义相关（斯皮尔曼系数）识别单调趋势，独立性检验（距离相关系数）判断变量是否...*</small>
 * [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
 * [Welford 算法 | 优雅地计算海量数据的均值与方差](https://blog.csdn.net/P_LarT/article/details/156197657) - 2025-12-23: <small>*本文介绍了Welford在线算法，这是一种高效计算大数据集统计量的方法。针对内存不足时处理大规模数据的问题，文章对比了传统方差计算方法的缺陷（内存占用大、数值稳...*</small>
@@ -29,8 +31,6 @@ $$
 * [数据增强在小型卷积神经网络中的有效性探究](https://blog.csdn.net/P_LarT/article/details/155916849) - 2025-12-14: <small>*深度学习模型性能提升中，数据增强并非总是有效。研究发现增强效果取决于模型架构、参数量和卷积类型。*</small>
 * [神经网络 | 从线性结构到可学习非线性](https://blog.csdn.net/P_LarT/article/details/155709559) - 2025-12-08: <small>*CNN、Transformer、ONN（Operational Neural Network）和KAN*</small>
 * [储层计算 (Reservoir Computing) 概述](https://blog.csdn.net/P_LarT/article/details/155644579) - 2025-12-06: <small>*储层计算（RC）通过固定非线性储层与可训练线性读出的解耦设计，克服了传统递归神经网络训练中的梯度问题。其核心在于利用高维动力系统将输入信号映射到线性可分空间，仅...*</small>
-* [告别乱码：OpenCV 中文路径（Unicode）读写的解决方案](https://blog.csdn.net/P_LarT/article/details/154360161) - 2025-11-03: <small>*本文针对OpenCV中文路径读取失败问题，提出了一种基于C++17标准库的跨平台解决方案。核心思路是：使用std::filesystem处理中文路径，利用std...*</small>
-* [生成模型 | DDPM -＞ Imrpoved DDPM -＞ DDIM](https://blog.csdn.net/P_LarT/article/details/150712115) - 2025-08-24: <small>*本文介绍了三种扩散模型变体：DDPM、Improved DDPM和DDIM。DDPM通过迭代去噪过程生成样本，但采样速度较慢。Improved DDPM改进了噪...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
