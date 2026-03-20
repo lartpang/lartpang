@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [RWKV 的并行训练与 O(1) 推理](https://blog.csdn.net/P_LarT/article/details/159249339) - 2026-03-19: <small>*本文分析了Transformer注意力机制在推理时复杂度随序列长度线性增长的数学根源，指出softmax的全局归一化导致历史信息无法压缩。作为解决方案，RWKV...*</small>
 * [位翻转排列 (Bit-Reversal Permutation) 解析](https://blog.csdn.net/P_LarT/article/details/158355459) - 2026-02-24: <small>*位翻转排列是一种将数据索引的二进制位完全倒置的重排操作，本质上是分治算法在底层数据划分上的投影。该技术广泛应用于快速傅里叶变换（FFT）等算法中，通过内存重排实...*</small>
 * [Monarch矩阵：从设计直觉到数学推导与实际应用](https://blog.csdn.net/P_LarT/article/details/158352258) - 2026-02-24: <small>*Monarch矩阵是一种高效的矩阵参数化方法，旨在解决大模型中的计算和内存瓶颈。它结合块对角矩阵与排列操作，在保持硬件友好性的同时实现全局特征融合。Monarc...*</small>
 * [从独立性、相关性到复杂动力系统](https://blog.csdn.net/P_LarT/article/details/158318907) - 2026-02-23: <small>*本文系统探讨了数据相关性分析的四个认知层级：线性相关（皮尔逊系数）捕捉严格比例关系，广义相关（斯皮尔曼系数）识别单调趋势，独立性检验（距离相关系数）判断变量是否...*</small>
@@ -30,7 +31,6 @@ $$
 * [带噪学习 | Ambient Diffusion (NeurIPS 2023) 上篇](https://blog.csdn.net/P_LarT/article/details/155989880) - 2025-12-17: <small>*Ambient Diffusion能够在仅使用高度损坏样本（如缺失90%像素的图像）的情况下学习干净数据的分布。核心创新是在扩散过程中引入额外测量失真，迫使模型...*</small>
 * [数据增强在小型卷积神经网络中的有效性探究](https://blog.csdn.net/P_LarT/article/details/155916849) - 2025-12-14: <small>*深度学习模型性能提升中，数据增强并非总是有效。研究发现增强效果取决于模型架构、参数量和卷积类型。*</small>
 * [神经网络 | 从线性结构到可学习非线性](https://blog.csdn.net/P_LarT/article/details/155709559) - 2025-12-08: <small>*CNN、Transformer、ONN（Operational Neural Network）和KAN*</small>
-* [储层计算 (Reservoir Computing) 概述](https://blog.csdn.net/P_LarT/article/details/155644579) - 2025-12-06: <small>*储层计算（RC）通过固定非线性储层与可训练线性读出的解耦设计，克服了传统递归神经网络训练中的梯度问题。其核心在于利用高维动力系统将输入信号映射到线性可分空间，仅...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
