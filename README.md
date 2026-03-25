@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [双线性插值与均匀B-样条完全指南](https://blog.csdn.net/P_LarT/article/details/159434384) - 2026-03-24: <small>*本文重点探讨了线性插值与B-样条核函数的等价关系。文章从离散图像的本质出发，指出放大时需要在像素间进行插值计算。通过对比一维空间中的最近邻、线性和三次样条插值方...*</small>
 * [ArXiv 2603 | 用神经元胞自动机训练语言模型：合成数据能超越自然语言吗？](https://blog.csdn.net/P_LarT/article/details/159394866) - 2026-03-23: <small>*作者认为，LLMs 中涌现的推理能力（few-shot learning、chain-of-thought 等），其本质依赖的是自然语言的底层计算结构，而非其语...*</small>
 * [ArXiv:2603 | Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://blog.csdn.net/P_LarT/article/details/159282164) - 2026-03-20: <small>*摘要： 本文提出了一种新颖视角，将预训练模型视为参数空间中的“专家灌木丛”（Neural Thickets），而非单一权重起点。研究发现，大型预训练模型周围的参...*</small>
 * [RWKV 的并行训练与 O(1) 推理](https://blog.csdn.net/P_LarT/article/details/159249339) - 2026-03-19: <small>*本文分析了Transformer注意力机制在推理时复杂度随序列长度线性增长的数学根源，指出softmax的全局归一化导致历史信息无法压缩。作为解决方案，RWKV...*</small>
@@ -30,7 +31,6 @@ $$
 * [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
 * [Welford 算法 | 优雅地计算海量数据的均值与方差](https://blog.csdn.net/P_LarT/article/details/156197657) - 2025-12-23: <small>*本文介绍了Welford在线算法，这是一种高效计算大数据集统计量的方法。针对内存不足时处理大规模数据的问题，文章对比了传统方差计算方法的缺陷（内存占用大、数值稳...*</small>
 * [带噪学习 | Ambient Diffusion (NeurIPS 2023)下篇](https://blog.csdn.net/P_LarT/article/details/156022824) - 2025-12-17: <small>*本文介绍了Ambient Diffusion模型的采样过程，重点阐述了基于Tweedie公式的分数函数推导。通过分析前向过程的线性高斯特性，证明了分数函数$\n...*</small>
-* [带噪学习 | Ambient Diffusion (NeurIPS 2023) 上篇](https://blog.csdn.net/P_LarT/article/details/155989880) - 2025-12-17: <small>*Ambient Diffusion能够在仅使用高度损坏样本（如缺失90%像素的图像）的情况下学习干净数据的分布。核心创新是在扩散过程中引入额外测量失真，迫使模型...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
