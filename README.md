@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [高维空间的几何特性：从 QuIP 量化到储层计算的统一视角](https://blog.csdn.net/P_LarT/article/details/159647515) - 2026-03-30: <small>*高维几何中的随机正交性为机器学习算法提供了关键理论基础。在高维空间中，随机向量几乎必然近似正交，内积绝对值集中在 (1/\sqrt{n}) 附近。这一特性被广泛...*</small>
 * [告别“唯语料论”：用合成抽象数据为大模型开智](https://blog.csdn.net/P_LarT/article/details/159582810) - 2026-03-28: <small>*两篇论文提出pre-pre-training的大模型训练新范式，在接触自然语言前先用抽象合成数据训练模型底层逻辑能力。Procedural Pretrainin...*</small>
 * [双线性插值与均匀B-样条完全指南](https://blog.csdn.net/P_LarT/article/details/159434384) - 2026-03-24: <small>*本文重点探讨了线性插值与B-样条核函数的等价关系。文章从离散图像的本质出发，指出放大时需要在像素间进行插值计算。通过对比一维空间中的最近邻、线性和三次样条插值方...*</small>
 * [ArXiv 2603 | 用神经元胞自动机训练语言模型：合成数据能超越自然语言吗？](https://blog.csdn.net/P_LarT/article/details/159394866) - 2026-03-23: <small>*作者认为，LLMs 中涌现的推理能力（few-shot learning、chain-of-thought 等），其本质依赖的是自然语言的底层计算结构，而非其语...*</small>
@@ -30,7 +31,6 @@ $$
 * [Monarch矩阵：从设计直觉到数学推导与实际应用](https://blog.csdn.net/P_LarT/article/details/158352258) - 2026-02-24: <small>*Monarch矩阵是一种高效的矩阵参数化方法，旨在解决大模型中的计算和内存瓶颈。它结合块对角矩阵与排列操作，在保持硬件友好性的同时实现全局特征融合。Monarc...*</small>
 * [从独立性、相关性到复杂动力系统](https://blog.csdn.net/P_LarT/article/details/158318907) - 2026-02-23: <small>*本文系统探讨了数据相关性分析的四个认知层级：线性相关（皮尔逊系数）捕捉严格比例关系，广义相关（斯皮尔曼系数）识别单调趋势，独立性检验（距离相关系数）判断变量是否...*</small>
 * [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
-* [Welford 算法 | 优雅地计算海量数据的均值与方差](https://blog.csdn.net/P_LarT/article/details/156197657) - 2025-12-23: <small>*本文介绍了Welford在线算法，这是一种高效计算大数据集统计量的方法。针对内存不足时处理大规模数据的问题，文章对比了传统方差计算方法的缺陷（内存占用大、数值稳...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
