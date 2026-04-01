@@ -21,6 +21,7 @@ $$
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [前向差分与雅可比-向量积（Jacobian-Vector Product, JVP）机制探讨](https://blog.csdn.net/P_LarT/article/details/159685799) - 2026-03-31: <small>*本文探讨了深度学习中的高维求导方法。传统反向传播（VJP）适用于标量损失函数对参数的求导，但在需要计算高维输出对输入方向导数的场景下效率不足。通过对比VJP和J...*</small>
 * [高维空间的几何特性：从 QuIP 量化到储层计算的统一视角](https://blog.csdn.net/P_LarT/article/details/159647515) - 2026-03-30: <small>*高维几何中的随机正交性为机器学习算法提供了关键理论基础。在高维空间中，随机向量几乎必然近似正交，内积绝对值集中在 (1/\sqrt{n}) 附近。这一特性被广泛...*</small>
 * [告别“唯语料论”：用合成抽象数据为大模型开智](https://blog.csdn.net/P_LarT/article/details/159582810) - 2026-03-28: <small>*两篇论文提出pre-pre-training的大模型训练新范式，在接触自然语言前先用抽象合成数据训练模型底层逻辑能力。Procedural Pretrainin...*</small>
 * [双线性插值与均匀B-样条完全指南](https://blog.csdn.net/P_LarT/article/details/159434384) - 2026-03-24: <small>*本文重点探讨了线性插值与B-样条核函数的等价关系。文章从离散图像的本质出发，指出放大时需要在像素间进行插值计算。通过对比一维空间中的最近邻、线性和三次样条插值方...*</small>
@@ -30,7 +31,6 @@ $$
 * [位翻转排列 (Bit-Reversal Permutation) 解析](https://blog.csdn.net/P_LarT/article/details/158355459) - 2026-02-24: <small>*位翻转排列是一种将数据索引的二进制位完全倒置的重排操作，本质上是分治算法在底层数据划分上的投影。该技术广泛应用于快速傅里叶变换（FFT）等算法中，通过内存重排实...*</small>
 * [Monarch矩阵：从设计直觉到数学推导与实际应用](https://blog.csdn.net/P_LarT/article/details/158352258) - 2026-02-24: <small>*Monarch矩阵是一种高效的矩阵参数化方法，旨在解决大模型中的计算和内存瓶颈。它结合块对角矩阵与排列操作，在保持硬件友好性的同时实现全局特征融合。Monarc...*</small>
 * [从独立性、相关性到复杂动力系统](https://blog.csdn.net/P_LarT/article/details/158318907) - 2026-02-23: <small>*本文系统探讨了数据相关性分析的四个认知层级：线性相关（皮尔逊系数）捕捉严格比例关系，广义相关（斯皮尔曼系数）识别单调趋势，独立性检验（距离相关系数）判断变量是否...*</small>
-* [PyTorch 的统计三剑客：bucketize, bincount 与 histogram](https://blog.csdn.net/P_LarT/article/details/156906156) - 2026-01-13: <small>*本文解析了PyTorch中三个易混淆的函数：torch.bucketize、torch.bincount和torch.histogram。bucketize用于...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
