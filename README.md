@@ -2,16 +2,10 @@
 
 ## 🧑‍🤝‍🧑 Me
 
-$$
-\textbf{life} = \int_{birth}^{now} \mathbf{happy}(time) + \mathbf{sad}(time) d(time)
-$$
-
 <p align="center">
   A Python and PyTorch developer, deep-learning worker and open-source activist.
   <br /><br />
-
-  <img src="https://github.com/lartpang/lartpang/assets/26847524/47e4b857-c6b7-4237-a637-0ec73485e48e" />
-  Created by the awesome <a href="https://erikdemaine.org/fonts/tetris/">tool</a>. 😊
+  <img src="https://github.com/user-attachments/assets/1a100b12-c4f1-483b-8ab3-96279eae7293" />
 </p>
 
 * 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
