@@ -15,6 +15,7 @@
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [循环推理模型：把思考搬进隐空间](https://blog.csdn.net/P_LarT/article/details/161423640) - 2026-05-26: <small>*循环推理模型（RRM）提出了一种新的AI推理范式，将部分计算从显式token序列转移到隐空间中进行。传统大模型通过增加token数量来延长推理，而RRM通过在隐...*</small>
 * [Welford算法 | 从单一到批次](https://blog.csdn.net/P_LarT/article/details/161321796) - 2026-05-22: <small>*介绍了Welford算法及其批处理变体，用于高效计算大数据的全局均值和方差。针对内存有限场景，该算法只需单次遍历数据，不保存历史样本，且数值稳定。*</small>
 * [ArXiv 2507 | Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning](https://blog.csdn.net/P_LarT/article/details/160890351) - 2026-05-08: <small>*Franca模型通过创新的嵌套套娃聚类、循环掩码和绝对空间属性剥离技术实现了有效的视觉基础模型。该模型完全开源，使用公开数据集训练，在多项任务上超越DINOv2...*</small>
 * [从概率估计到“LLM 训练是有损压缩”](https://blog.csdn.net/P_LarT/article/details/160692476) - 2026-05-01: <small>*本文探讨了如何用信息论方法分析大语言模型（LLM）的内部表征，重点讨论了互信息与熵的估计难题。由于LLM隐藏状态是高维连续向量，传统网格划分方法面临维数灾难;。...*</small>
@@ -24,7 +25,6 @@
 * [告别“唯语料论”：用合成抽象数据为大模型开智](https://blog.csdn.net/P_LarT/article/details/159582810) - 2026-03-28: <small>*两篇论文提出pre-pre-training的大模型训练新范式，在接触自然语言前先用抽象合成数据训练模型底层逻辑能力。Procedural Pretrainin...*</small>
 * [双线性插值与均匀B-样条完全指南](https://blog.csdn.net/P_LarT/article/details/159434384) - 2026-03-24: <small>*本文重点探讨了线性插值与B-样条核函数的等价关系。文章从离散图像的本质出发，指出放大时需要在像素间进行插值计算。通过对比一维空间中的最近邻、线性和三次样条插值方...*</small>
 * [ArXiv 2603 | 用神经元胞自动机训练语言模型：合成数据能超越自然语言吗？](https://blog.csdn.net/P_LarT/article/details/159394866) - 2026-03-23: <small>*作者认为，LLMs 中涌现的推理能力（few-shot learning、chain-of-thought 等），其本质依赖的是自然语言的底层计算结构，而非其语...*</small>
-* [ArXiv:2603 | Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://blog.csdn.net/P_LarT/article/details/159282164) - 2026-03-20: <small>*摘要： 本文提出了一种新颖视角，将预训练模型视为参数空间中的“专家灌木丛”（Neural Thickets），而非单一权重起点。研究发现，大型预训练模型周围的参...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
