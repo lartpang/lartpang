@@ -15,16 +15,16 @@
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
-* [隐式函数与自动微分](https://blog.csdn.net/P_LarT/article/details/161462959) - 2026-05-27: <small>*本文探讨了不动点求解器的高效微分方法。通过隐函数定理提出了一种避免传统自动微分内存消耗过大的新方法，即利用不动点方程的特性直接计算梯度。文章为优化算法和隐式层的...*</small>
-* [深度学习中的隐式层](https://blog.csdn.net/P_LarT/article/details/161462554) - 2026-05-27: <small>*本文介绍了深度学习中的隐式层概念，与传统显式层不同，隐式层通过指定输出应满足的条件而非直接计算步骤来定义。文章以自注意力层为例说明显式层的典型实现方式，然后引入...*</small>
+* [深度隐式层 | 可微优化](https://blog.csdn.net/P_LarT/article/details/161486760) - 2026-05-28: <small>*本文重点讨论了将优化问题解作为网络层的实现方法。首先区分了传统参数优化与作为网络组件的优化层，后者通过求解小规模凸优化问题定义层输出。作者以凸优化问题为例，阐述...*</small>
+* [深度隐式层 | 深度平衡模型 (Deep Equilibrium, DEQ)](https://blog.csdn.net/P_LarT/article/details/161484956) - 2026-05-28: <small>*深度平衡（DEQ）模型是一种新兴的隐式层架构，通过寻找神经网络迭代过程的不动点来实现计算。该模型将传统深度网络视为无限层迭代的平衡状态，使用单层即可表达任意深度...*</small>
+* [深度隐式层 | 神经常微分方程](https://blog.csdn.net/P_LarT/article/details/161483951) - 2026-05-28: <small>*本文介绍了如何使用微分方程求解器构建连续时间或连续深度的神经网络模型。详细说明了构建ODE-Net的关键步骤：定义动力学函数、使用odeint求解器，以及通过v...*</small>
+* [深度隐式层 | 隐式函数与自动微分](https://blog.csdn.net/P_LarT/article/details/161462959) - 2026-05-27: <small>*本文探讨了不动点求解器的高效微分方法。通过隐函数定理提出了一种避免传统自动微分内存消耗过大的新方法，即利用不动点方程的特性直接计算梯度。文章为优化算法和隐式层的...*</small>
+* [深度隐式层 | 从显式层到隐式层](https://blog.csdn.net/P_LarT/article/details/161462554) - 2026-05-27: <small>*本文介绍了深度学习中的隐式层概念，与传统显式层不同，隐式层通过指定输出应满足的条件而非直接计算步骤来定义。文章以自注意力层为例说明显式层的典型实现方式，然后引入...*</small>
 * [循环推理模型：把思考搬进隐空间](https://blog.csdn.net/P_LarT/article/details/161423640) - 2026-05-26: <small>*循环推理模型（RRM）提出了一种新的AI推理范式，将部分计算从显式token序列转移到隐空间中进行。传统大模型通过增加token数量来延长推理，而RRM通过在隐...*</small>
 * [Welford算法 | 从单一到批次](https://blog.csdn.net/P_LarT/article/details/161321796) - 2026-05-22: <small>*介绍了Welford算法及其批处理变体，用于高效计算大数据的全局均值和方差。针对内存有限场景，该算法只需单次遍历数据，不保存历史样本，且数值稳定。*</small>
 * [ArXiv 2507 | Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning](https://blog.csdn.net/P_LarT/article/details/160890351) - 2026-05-08: <small>*Franca模型通过创新的嵌套套娃聚类、循环掩码和绝对空间属性剥离技术实现了有效的视觉基础模型。该模型完全开源，使用公开数据集训练，在多项任务上超越DINOv2...*</small>
 * [从概率估计到“LLM 训练是有损压缩”](https://blog.csdn.net/P_LarT/article/details/160692476) - 2026-05-01: <small>*本文探讨了如何用信息论方法分析大语言模型（LLM）的内部表征，重点讨论了互信息与熵的估计难题。由于LLM隐藏状态是高维连续向量，传统网格划分方法面临维数灾难;。...*</small>
 * [同时扰动随机逼近（SPSA）前向差分](https://blog.csdn.net/P_LarT/article/details/159956339) - 2026-04-08: <small>*同时扰动随机逼近SPSA是一种高效的随机梯度估计方法，适用于高维黑盒优化问题。它通过在所有参数维度上施加随机扰动，仅需两次函数评估即可获得无偏梯度估计，计算成本...*</small>
-* [前向差分与雅可比-向量积（Jacobian-Vector Product, JVP）机制探讨](https://blog.csdn.net/P_LarT/article/details/159685799) - 2026-03-31: <small>*本文探讨了深度学习中的高维求导方法。传统反向传播（VJP）适用于标量损失函数对参数的求导，但在需要计算高维输出对输入方向导数的场景下效率不足。通过对比VJP和J...*</small>
-* [高维空间的几何特性：从 QuIP 量化到储层计算的统一视角](https://blog.csdn.net/P_LarT/article/details/159647515) - 2026-03-30: <small>*高维几何中的随机正交性为机器学习算法提供了关键理论基础。在高维空间中，随机向量几乎必然近似正交，内积绝对值集中在 (1/\sqrt{n}) 附近。这一特性被广泛...*</small>
-* [告别“唯语料论”：用合成抽象数据为大模型开智](https://blog.csdn.net/P_LarT/article/details/159582810) - 2026-03-28: <small>*两篇论文提出pre-pre-training的大模型训练新范式，在接触自然语言前先用抽象合成数据训练模型底层逻辑能力。Procedural Pretrainin...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
