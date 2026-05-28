@@ -56,3 +56,4 @@ View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
 | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
 | [**lartpang/OVCamo**](https://github.com/lartpang/OVCamo)                                              | Open-Vocabulary Camouflaged Object Segmentation |
 | [**yooweey/AugmentedIRSTD1kTestset**](https://huggingface.co/datasets/yooweey/AugmentedIRSTD1kTestset) | Augmented Testset of the IRSTD-1k dataset       |
+| [**yooweey/LaMoFCBench**](https://www.modelscope.cn/collections/yooweey/LaMoFCBench)                   | Benchmark for Large Model Feature Coding        |
