@@ -15,6 +15,8 @@
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [隐式函数与自动微分](https://blog.csdn.net/P_LarT/article/details/161462959) - 2026-05-27: <small>*本文探讨了不动点求解器的高效微分方法。通过隐函数定理提出了一种避免传统自动微分内存消耗过大的新方法，即利用不动点方程的特性直接计算梯度。文章为优化算法和隐式层的...*</small>
+* [深度学习中的隐式层](https://blog.csdn.net/P_LarT/article/details/161462554) - 2026-05-27: <small>*本文介绍了深度学习中的隐式层概念，与传统显式层不同，隐式层通过指定输出应满足的条件而非直接计算步骤来定义。文章以自注意力层为例说明显式层的典型实现方式，然后引入...*</small>
 * [循环推理模型：把思考搬进隐空间](https://blog.csdn.net/P_LarT/article/details/161423640) - 2026-05-26: <small>*循环推理模型（RRM）提出了一种新的AI推理范式，将部分计算从显式token序列转移到隐空间中进行。传统大模型通过增加token数量来延长推理，而RRM通过在隐...*</small>
 * [Welford算法 | 从单一到批次](https://blog.csdn.net/P_LarT/article/details/161321796) - 2026-05-22: <small>*介绍了Welford算法及其批处理变体，用于高效计算大数据的全局均值和方差。针对内存有限场景，该算法只需单次遍历数据，不保存历史样本，且数值稳定。*</small>
 * [ArXiv 2507 | Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning](https://blog.csdn.net/P_LarT/article/details/160890351) - 2026-05-08: <small>*Franca模型通过创新的嵌套套娃聚类、循环掩码和绝对空间属性剥离技术实现了有效的视觉基础模型。该模型完全开源，使用公开数据集训练，在多项任务上超越DINOv2...*</small>
@@ -23,8 +25,6 @@
 * [前向差分与雅可比-向量积（Jacobian-Vector Product, JVP）机制探讨](https://blog.csdn.net/P_LarT/article/details/159685799) - 2026-03-31: <small>*本文探讨了深度学习中的高维求导方法。传统反向传播（VJP）适用于标量损失函数对参数的求导，但在需要计算高维输出对输入方向导数的场景下效率不足。通过对比VJP和J...*</small>
 * [高维空间的几何特性：从 QuIP 量化到储层计算的统一视角](https://blog.csdn.net/P_LarT/article/details/159647515) - 2026-03-30: <small>*高维几何中的随机正交性为机器学习算法提供了关键理论基础。在高维空间中，随机向量几乎必然近似正交，内积绝对值集中在 (1/\sqrt{n}) 附近。这一特性被广泛...*</small>
 * [告别“唯语料论”：用合成抽象数据为大模型开智](https://blog.csdn.net/P_LarT/article/details/159582810) - 2026-03-28: <small>*两篇论文提出pre-pre-training的大模型训练新范式，在接触自然语言前先用抽象合成数据训练模型底层逻辑能力。Procedural Pretrainin...*</small>
-* [双线性插值与均匀B-样条完全指南](https://blog.csdn.net/P_LarT/article/details/159434384) - 2026-03-24: <small>*本文重点探讨了线性插值与B-样条核函数的等价关系。文章从离散图像的本质出发，指出放大时需要在像素间进行插值计算。通过对比一维空间中的最近邻、线性和三次样条插值方...*</small>
-* [ArXiv 2603 | 用神经元胞自动机训练语言模型：合成数据能超越自然语言吗？](https://blog.csdn.net/P_LarT/article/details/159394866) - 2026-03-23: <small>*作者认为，LLMs 中涌现的推理能力（few-shot learning、chain-of-thought 等），其本质依赖的是自然语言的底层计算结构，而非其语...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
