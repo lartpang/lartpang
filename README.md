@@ -13,6 +13,7 @@
 ## 📝 Recent Writing
 
 <!-- BEGIN_RECENT_WRITING -->
+* [奇妙的9：为什么 9x9=81 而 8+1=9？](https://blog.csdn.net/P_LarT/article/details/163668936) - 2026-08-11: <small>*这篇文章探讨了十进制数字9的奇妙性质，即9的倍数各位数字之和最终会得到9。作者从数学角度解释了这一现象，揭示了其本质是十进制位值系统与模9运算之间的天然关系。通...*</small>
 * [Agent Skills | 技能生成、优化与生命周期管理](https://blog.csdn.net/P_LarT/article/details/161591890) - 2026-06-01: <small>*本文围绕四篇关于"智能体技能"的研究论文展开讨论，探讨了在不频繁修改模型权重的情况下，如何将可复用的过程性知识作为外部技能，成为智能体持续改进的主要载体。四篇论...*</small>
 * [循环与注意力：多算几步到底值不值](https://blog.csdn.net/P_LarT/article/details/161538314) - 2026-05-30: <small>*本文探讨了六篇关于“循环”机制的论文，重点分析了循环计算在深度学习中的新应用形式。这些研究不是简单回归传统RNN，而是在Transformer等并行架构中探索如...*</small>
 * [深度隐式层 | 可微优化](https://blog.csdn.net/P_LarT/article/details/161486760) - 2026-05-28: <small>*本文重点讨论了将优化问题解作为网络层的实现方法。首先区分了传统参数优化与作为网络组件的优化层，后者通过求解小规模凸优化问题定义层输出。作者以凸优化问题为例，阐述...*</small>
@@ -22,7 +23,6 @@
 * [深度隐式层 | 从显式层到隐式层](https://blog.csdn.net/P_LarT/article/details/161462554) - 2026-05-27: <small>*本文介绍了深度学习中的隐式层概念，与传统显式层不同，隐式层通过指定输出应满足的条件而非直接计算步骤来定义。文章以自注意力层为例说明显式层的典型实现方式，然后引入...*</small>
 * [循环推理模型：把思考搬进隐空间](https://blog.csdn.net/P_LarT/article/details/161423640) - 2026-05-26: <small>*循环推理模型（RRM）提出了一种新的AI推理范式，将部分计算从显式token序列转移到隐空间中进行。传统大模型通过增加token数量来延长推理，而RRM通过在隐...*</small>
 * [Welford算法 | 从单一到批次](https://blog.csdn.net/P_LarT/article/details/161321796) - 2026-05-22: <small>*介绍了Welford算法及其批处理变体，用于高效计算大数据的全局均值和方差。针对内存有限场景，该算法只需单次遍历数据，不保存历史样本，且数值稳定。*</small>
-* [ArXiv 2507 | Franca: Nested Matryoshka Clustering for Scalable Visual Representation Learning](https://blog.csdn.net/P_LarT/article/details/160890351) - 2026-05-08: <small>*Franca模型通过创新的嵌套套娃聚类、循环掩码和绝对空间属性剥离技术实现了有效的视觉基础模型。该模型完全开源，使用公开数据集训练，在多项任务上超越DINOv2...*</small>
 <!-- END_RECENT_WRITING -->
 
 View the archives @ [csdn@p_lart](https://blog.csdn.net/p_lart).
