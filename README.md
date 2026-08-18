@@ -4,6 +4,8 @@
   Python & PyTorch developer · Deep-learning practitioner · Open-source contributor
   <br /><br />
   <img src="https://github.com/user-attachments/assets/5b077a5d-4611-4e77-ba66-bde48f59700e" />
+  <br />
+  By <a href="https://github.com/lartpang/semantic-field-editorial">semantic-field-editorial</a>.
 </p>
 
 * 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
