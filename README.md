@@ -3,7 +3,7 @@
 <p align="center">
   Python & PyTorch developer · Deep-learning practitioner · Open-source contributor
   <br /><br />
-  <img src="https://github.com/user-attachments/assets/1a100b12-c4f1-483b-8ab3-96279eae7293" />
+  <img src="https://github.com/user-attachments/assets/5b077a5d-4611-4e77-ba66-bde48f59700e" />
 </p>
 
 * 📝 I regulary write articles on [https://www.yuque.com/lart](https://www.yuque.com/lart)
